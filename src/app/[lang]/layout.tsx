@@ -1,13 +1,40 @@
 import type { Metadata } from "next";
 import "../globals.css";
 import { notFound } from "next/navigation";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import { locales, type Locale } from "@/i18n/config";
 
-export const metadata: Metadata = {
-  title: "Pingital",
-  description: "Software built around your business",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+
+  const isSpanish = lang === "es";
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+  return {
+    title: {
+      default: "Pingital",
+      template: "%s | Pingital",
+    },
+
+    description: isSpanish
+      ? "Desarrollo de software, aplicaciones web y soluciones digitales adaptadas a tu negocio."
+      : "Software development, web applications and digital solutions built around your business.",
+
+    alternates: {
+      canonical: `${siteUrl}/${lang}`,
+      languages: {
+        en: `${siteUrl}/en`,
+        es: `${siteUrl}/es`,
+      },
+    },
+  };
+}
 
 export function generateStaticParams() {
   return [{ lang: "en" }, { lang: "es" }];
@@ -27,8 +54,12 @@ export default async function RootLayout({
     }
 
   return (
-    <html lang={lang}>
-      <body>{children}</body>
-    </html>
-  );
+  <html lang={lang}>
+    <body>{children}</body>
+
+    {process.env.NEXT_PUBLIC_GTM_ID && (
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+    )}
+  </html>
+);
 }
