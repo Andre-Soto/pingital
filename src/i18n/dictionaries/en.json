@@ -23,6 +23,12 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   },
+  "thankYou": {
+    "eyebrow": "Project Received",
+    "title": "Thank you.",
+    "description": "Your project brief has been received successfully. Our team will review the information and get back to you shortly.",
+    "button": "Back to Home"
+  },
   "home": {
     "title": "Software built around your business",
     "description": "We design and engineer resilient custom web applications, complex cloud architectures, and mission-critical digital systems for established market leaders and funded tech innovators.",
@@ -269,6 +275,143 @@
       "submit": "Submit Project Brief",
       "sending": "Sending...",
       "error": "Something went wrong. Please try again."
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Direct Partner Engagement",
+      "title": "Let's engineer software that moves your business forward.",
+      "description": "Tell us what you are building, the challenges you are facing and where you want your business to go.",
+      "nda": "Mutual NDA available",
+      "response": "Average response: 24 hours",
+      "contact": "Direct technical contact"
+    },
+    "engagement": {
+      "protocols": {
+        "title": "Engagement Protocols",
+        "revision": "REV 4.2",
+        "description": "Engineered for organizations with zero tolerance for ambiguity, outsourced personnel, or unclear intellectual property transfer.",
+        "items": [
+          {
+            "number": "01",
+            "label": "DIRECT PRINCIPAL ACCESS",
+            "title": "Principal Architect Involvement",
+            "description": "Every scoping session is personally conducted by our technical team. No sales representatives or account managers."
+          },
+          {
+            "number": "02",
+            "label": "CONFIDENTIAL INTEGRITY",
+            "title": "Automated Mutual NDA Execution",
+            "description": "Sensitive product and infrastructure information can be handled under mutual NDA before technical discussions."
+          },
+          {
+            "number": "03",
+            "label": "SYSTEMATIC SPEC",
+            "title": "5-Day Feasibility Teardown",
+            "description": "Within 120 hours of discovery, receive a concrete architectural blueprint, complete dependency matrix, risk model and milestones."
+          },
+          {
+            "number": "04",
+            "label": "UNCONDITIONAL IP TRANSFER",
+            "title": "100% Unencumbered IP Ownership",
+            "description": "Zero proprietary lock-in. Full source code, configuration, infrastructure and technical assets transfer directly to your organization."
+          }
+        ]
+      },
+      "security": {
+        "title": "PGP Security Channel",
+        "description": "For sensitive architecture, proprietary systems or confidential infrastructure discussions, encrypted communication is available.",
+        "fingerprint": "Fingerprint",
+        "directEmail": "Direct Email"
+      },
+      "nodes": {
+        "title": "Global Engineering Nodes",
+        "status": "Active Clusters"
+      },
+      "form": {
+        "eyebrow": "Transmission Channel",
+        "title": "Initiate Technical Scoping Brief",
+        "description": "Fields are evaluated exclusively by engineering partners. Deterministic, NDA-protected review within 24 hours.",
+        "stakeholder": "01 / Stakeholder Information",
+        "name": "Full Name",
+        "namePlaceholder": "e.g. Dr. Arthur Vance",
+        "email": "Work Email Address",
+        "emailPlaceholder": "name@enterprise.com",
+        "company": "Company / Entity Name",
+        "companyPlaceholder": "e.g. HyperScale Technologies",
+        "role": "Executive Role / Technical Title",
+        "rolePlaceholder": "e.g. VP Infrastructure / CTO",
+        "scope": "02 / Core Systems Scope",
+        "scopes": [
+          "Web Applications & SaaS",
+          "High-Performance Mobile",
+          "Distributed Backend & Engines",
+          "Cloud & Site Reliability",
+          "Database Migration & Scaling",
+          "Enterprise Modernization"
+        ],
+        "horizon": "03 / Target Production Horizon",
+        "horizons": [
+          {
+            "value": "immediate",
+            "title": "Immediate",
+            "subtitle": "2–4 Weeks Launch"
+          },
+          {
+            "value": "quarter",
+            "title": "Q1/Q2 Horizon",
+            "subtitle": "1–3 Months"
+          },
+          {
+            "value": "strategic",
+            "title": "Strategic",
+            "subtitle": "3–6 Months"
+          }
+        ],
+        "budget": "04 / Projected Capital Allocation",
+        "budgets": [
+          "$75k – $150k",
+          "$150k – $300k",
+          "$300k – $500k",
+          "$500k+"
+        ],
+        "specifications": "05 / System Specifications & Core Constraints",
+        "specificationsPlaceholder": "Briefly describe target architecture, existing stack constraints, performance bottlenecks, expected throughput and strategic target delivery date...",
+        "artefacts": "06 / Technical Artefacts (Optional)",
+        "artefactsTitle": "Attach PDF, RFP or architecture diagram",
+        "artefactsDescription": "PDF, PNG, SVG or ZIP up to 50MB",
+        "nda": "Automatically execute standard Mutual NDA prior to consultation. All submitted materials remain confidential and are never shared with non-cleared parties.",
+        "submit": "Submit Scoping Brief & Schedule Architect Session",
+        "sending": "Sending...",
+        "error": "Something went wrong. Please try again."
+      }
+    },
+    "faq": {
+      "eyebrow": "Technical Due Diligence",
+      "title": "Engagement Protocols FAQ",
+      "description": "Everything you need to know about how Pingital scopes, contracts and delivers high-assurance software systems.",
+      "items": [
+        {
+          "number": "01",
+          "title": "What happens after I submit a brief?",
+          "description": "Within 24 hours, our technical team reviews your constraints and schedules a focused discovery session. We discuss data flows, performance requirements, existing bottlenecks, governance needs and architectural priorities."
+        },
+        {
+          "number": "02",
+          "title": "How does Pingital structure engagement pricing?",
+          "description": "We work primarily with milestone-based fixed delivery or dedicated technical teams. Scope, deliverables and service levels are clearly defined before development begins."
+        },
+        {
+          "number": "03",
+          "title": "Can you work under strict compliance requirements?",
+          "description": "Yes. We can design systems around strict security, privacy and compliance requirements, including controlled access, audit trails, encryption and infrastructure isolation."
+        },
+        {
+          "number": "04",
+          "title": "Do you take equity or retain ownership of our software?",
+          "description": "No. Your organization retains ownership of the software, source code and project-specific intellectual property delivered as part of the engagement."
+        }
+      ]
     }
   }
 }

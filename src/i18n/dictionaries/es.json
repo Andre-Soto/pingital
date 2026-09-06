@@ -23,6 +23,12 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio"
   },
+  "thankYou": {
+    "eyebrow": "Proyecto recibido",
+    "title": "Gracias.",
+    "description": "Recibimos correctamente la información de tu proyecto. Nuestro equipo la revisará y se pondrá en contacto contigo muy pronto.",
+    "button": "Volver al inicio"
+  },
   "home": {
     "title": "Software adaptado a tu negocio",
     "description": "Diseñamos y desarrollamos aplicaciones web personalizadas y resilientes, arquitecturas en la nube complejas y sistemas digitales de misión crítica para líderes consolidados del mercado e innovadores tecnológicos con financiación.",
@@ -269,6 +275,143 @@
       "submit": "Enviar información del proyecto",
       "sending": "Enviando...",
       "error": "Ocurrió un problema. Inténtalo nuevamente."
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contacto directo con nuestro equipo",
+      "title": "Construyamos software que impulse tu negocio.",
+      "description": "Cuéntanos qué estás construyendo, qué retos estás enfrentando y hacia dónde quieres llevar tu negocio.",
+      "nda": "NDA mutuo disponible",
+      "response": "Respuesta promedio: 24 horas",
+      "contact": "Contacto técnico directo"
+    },
+    "engagement": {
+      "protocols": {
+        "title": "Protocolos de trabajo",
+        "revision": "REV 4.2",
+        "description": "Diseñado para organizaciones que requieren claridad absoluta, contacto técnico directo y propiedad total de su tecnología.",
+        "items": [
+          {
+            "number": "01",
+            "label": "ACCESO TÉCNICO DIRECTO",
+            "title": "Participación directa del arquitecto",
+            "description": "Cada sesión de alcance es realizada directamente por nuestro equipo técnico. Sin intermediarios comerciales ni ejecutivos de cuenta."
+          },
+          {
+            "number": "02",
+            "label": "CONFIDENCIALIDAD",
+            "title": "Ejecución de NDA mutuo",
+            "description": "La información sensible del producto, infraestructura y operación puede manejarse bajo NDA antes de cualquier conversación técnica."
+          },
+          {
+            "number": "03",
+            "label": "ANÁLISIS SISTEMÁTICO",
+            "title": "Evaluación de viabilidad en 5 días",
+            "description": "Dentro de las primeras 120 horas del proceso podemos definir arquitectura, dependencias, riesgos y principales etapas del proyecto."
+          },
+          {
+            "number": "04",
+            "label": "PROPIEDAD INTELECTUAL",
+            "title": "100% de propiedad sobre tu software",
+            "description": "Sin dependencia propietaria. El código fuente, configuraciones, infraestructura y activos técnicos pertenecen completamente a tu organización."
+          }
+        ]
+      },
+      "security": {
+        "title": "Canal seguro PGP",
+        "description": "Para conversaciones sobre arquitectura sensible, sistemas propietarios o infraestructura confidencial, disponemos de comunicación cifrada.",
+        "fingerprint": "Huella digital",
+        "directEmail": "Correo directo"
+      },
+      "nodes": {
+        "title": "Nodos globales de ingeniería",
+        "status": "Clústeres activos"
+      },
+      "form": {
+        "eyebrow": "Canal de contacto técnico",
+        "title": "Iniciar evaluación técnica",
+        "description": "La información es revisada directamente por nuestro equipo de ingeniería bajo confidencialidad y con respuesta en menos de 24 horas.",
+        "stakeholder": "01 / Información del contacto",
+        "name": "Nombre completo",
+        "namePlaceholder": "Ej. Arthur Vance",
+        "email": "Correo de trabajo",
+        "emailPlaceholder": "nombre@empresa.com",
+        "company": "Empresa / Organización",
+        "companyPlaceholder": "Ej. HyperScale Technologies",
+        "role": "Cargo ejecutivo / técnico",
+        "rolePlaceholder": "Ej. CTO / VP de Infraestructura",
+        "scope": "02 / Alcance del sistema",
+        "scopes": [
+          "Aplicaciones Web y SaaS",
+          "Aplicaciones móviles de alto rendimiento",
+          "Backend y sistemas distribuidos",
+          "Cloud y confiabilidad",
+          "Migración y escalamiento de bases de datos",
+          "Modernización empresarial"
+        ],
+        "horizon": "03 / Horizonte de producción",
+        "horizons": [
+          {
+            "value": "immediate",
+            "title": "Inmediato",
+            "subtitle": "Lanzamiento en 2–4 semanas"
+          },
+          {
+            "value": "quarter",
+            "title": "Próximo trimestre",
+            "subtitle": "1–3 meses"
+          },
+          {
+            "value": "strategic",
+            "title": "Estratégico",
+            "subtitle": "3–6 meses"
+          }
+        ],
+        "budget": "04 / Inversión estimada",
+        "budgets": [
+          "$75k – $150k",
+          "$150k – $300k",
+          "$300k – $500k",
+          "$500k+"
+        ],
+        "specifications": "05 / Especificaciones y restricciones",
+        "specificationsPlaceholder": "Describe la arquitectura deseada, stack actual, principales limitaciones, rendimiento esperado y fecha objetivo...",
+        "artefacts": "06 / Archivos técnicos (Opcional)",
+        "artefactsTitle": "Adjunta PDF, RFP o diagrama de arquitectura",
+        "artefactsDescription": "PDF, PNG, SVG o ZIP de hasta 50MB",
+        "nda": "La información enviada se mantiene bajo estricta confidencialidad y nunca se comparte con terceros no autorizados.",
+        "submit": "Enviar información y solicitar sesión técnica",
+        "sending": "Enviando...",
+        "error": "Ocurrió un problema. Inténtalo nuevamente."
+      }
+    },
+    "faq": {
+      "eyebrow": "Evaluación técnica",
+      "title": "Preguntas frecuentes sobre nuestro proceso",
+      "description": "Todo lo que necesitas saber sobre cómo Pingital define, desarrolla y entrega sistemas de software de alta confiabilidad.",
+      "items": [
+        {
+          "number": "01",
+          "title": "¿Qué sucede después de enviar la información del proyecto?",
+          "description": "En menos de 24 horas, nuestro equipo técnico revisa tus necesidades y programa una sesión de descubrimiento. Analizamos flujos de datos, requerimientos de rendimiento, limitaciones actuales y prioridades de arquitectura."
+        },
+        {
+          "number": "02",
+          "title": "¿Cómo estructura Pingital los costos de un proyecto?",
+          "description": "Trabajamos principalmente con entregas definidas por etapas o equipos técnicos dedicados. El alcance, los entregables y los niveles de servicio quedan claramente establecidos antes de comenzar."
+        },
+        {
+          "number": "03",
+          "title": "¿Pueden trabajar bajo requisitos estrictos de seguridad o cumplimiento?",
+          "description": "Sí. Podemos diseñar sistemas alrededor de requisitos estrictos de seguridad, privacidad y cumplimiento, incluyendo controles de acceso, auditoría, cifrado y aislamiento de infraestructura."
+        },
+        {
+          "number": "04",
+          "title": "¿Pingital conserva propiedad sobre nuestro software?",
+          "description": "No. Tu organización conserva la propiedad del software, código fuente y propiedad intelectual específica del proyecto entregado."
+        }
+      ]
     }
   }
 }

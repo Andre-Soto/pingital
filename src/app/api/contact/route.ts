@@ -11,9 +11,13 @@ export async function POST(request: Request) {
       name,
       email,
       company,
+      role,
       category,
+      scope,
+      horizon,
       budget,
       message,
+      formName,
     } = body;
 
     if (!name || !email || !message) {
@@ -27,15 +31,22 @@ export async function POST(request: Request) {
       );
     }
 
+    const scopes = Array.isArray(scope)
+      ? scope.join(", ")
+      : scope || "Not provided";
+
     const { data, error } = await resend.emails.send({
       from: "Pingital <onboarding@resend.dev>",
       to: process.env.CONTACT_TO_EMAIL!,
       replyTo: email,
 
-      subject: `New Pingital project inquiry — ${company || name}`,
+      subject: `New Pingital inquiry — ${company || name}`,
 
       text: `
 New project inquiry from Pingital
+
+Form:
+${formName || "Website Contact"}
 
 Name:
 ${name}
@@ -46,8 +57,17 @@ ${email}
 Company:
 ${company || "Not provided"}
 
+Role:
+${role || "Not provided"}
+
 Project category:
 ${category || "Not provided"}
+
+Systems scope:
+${scopes}
+
+Production horizon:
+${horizon || "Not provided"}
 
 Estimated budget:
 ${budget || "Not provided"}
