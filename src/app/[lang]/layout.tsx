@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 import { locales, type Locale } from "@/i18n/config";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 export async function generateMetadata({
   params,
@@ -54,12 +56,18 @@ export default async function RootLayout({
     }
 
   return (
-  <html lang={lang}>
-    <body>{children}</body>
+    <html lang={lang}>
+      <body>
+        <Header lang={lang as Locale} />
 
-    {process.env.NEXT_PUBLIC_GTM_ID && (
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
-    )}
-  </html>
-);
+        {children}
+
+        <Footer lang={lang as Locale} />
+
+        {process.env.NEXT_PUBLIC_GTM_ID && (
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+        )}
+      </body>
+    </html>
+  );
 }

@@ -1,6 +1,274 @@
 {
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "footer": {
+    "description": "Custom software, digital products and technology engineered around the way your business actually works.",
+    "company": "Company",
+    "about": "About",
+    "services": "Services",
+    "insights": "Insights",
+    "capabilities": "Capabilities",
+    "webApplications": "Web Applications",
+    "mobileApplications": "Mobile Applications",
+    "cloudArchitecture": "Cloud Architecture",
+    "integrations": "Integrations",
+    "contact": "Contact",
+    "startProject": "Start a Project",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
   "home": {
     "title": "Software built around your business",
-    "description": "We design and build digital products tailored to your business."
+    "description": "We design and engineer resilient custom web applications, complex cloud architectures, and mission-critical digital systems for established market leaders and funded tech innovators.",
+    "hero": {
+      "badge": "Software engineering for modern businesses",
+      "primaryCta": "Start a Project",
+      "secondaryCta": "Explore Selected Work"
+    },
+    "stats": [
+      {
+        "value": "$2.4B+",
+        "label": "Value delivered"
+      },
+      {
+        "value": "99.999%",
+        "label": "System reliability"
+      },
+      {
+        "value": "48",
+        "label": "Products launched"
+      },
+      {
+        "value": "100%",
+        "label": "Tailored solutions"
+      }
+    ],
+    "positioning": {
+      "eyebrow": "Our approach",
+      "title": "We do not build generic websites. We engineer high-performance software systems that give market leaders an unfair competitive advantage.",
+      "paragraph1": "Every project starts with understanding how your business actually works. We design around your workflows, your customers and your growth objectives instead of forcing your operation into generic software.",
+      "paragraph2": "From custom platforms and internal systems to integrations, automation and cloud infrastructure, every decision is made around performance, scalability and long-term maintainability."
+    },
+    "services": {
+      "eyebrow": "Capabilities Spectrum",
+      "title": "Engineered for Extremes",
+      "description": "End-to-end execution across modern application tiers. From low-level architecture to responsive digital experiences.",
+      "cta": "View Service Specs",
+      "items": [
+        {
+          "icon": "web",
+          "title": "Web Applications",
+          "description": "Custom dashboards, enterprise platforms and operational systems engineered around complex business workflows.",
+          "features": [
+            "Fast and responsive user experiences",
+            "Complex dashboards and data visualization",
+            "Role-based granular access control"
+          ]
+        },
+        {
+          "icon": "mobile",
+          "title": "Mobile Applications",
+          "description": "High-performance mobile experiences designed for intuitive interactions, reliability and scalability.",
+          "features": [
+            "Native and cross-platform development",
+            "Hardware and peripheral integrations",
+            "Secure authentication and local storage"
+          ]
+        },
+        {
+          "icon": "cloud",
+          "title": "Cloud & Systems Architecture",
+          "description": "Reliable cloud infrastructure, scalable deployments and architectures designed for demanding applications.",
+          "features": [
+            "Infrastructure as code",
+            "Scalable cloud environments",
+            "Secure deployment architecture"
+          ]
+        },
+        {
+          "icon": "database",
+          "title": "Distributed Databases & Backends",
+          "description": "High-performance APIs, databases and backend systems designed to process and synchronize critical business data.",
+          "features": [
+            "Event-driven architectures",
+            "PostgreSQL and distributed data",
+            "Caching and performance optimization"
+          ]
+        },
+        {
+          "icon": "integration",
+          "title": "Systems Modernization & Integrations",
+          "description": "Modernize legacy systems and connect the platforms your operation already depends on without disrupting the business.",
+          "features": [
+            "Legacy system modernization",
+            "Third-party API integrations",
+            "Incremental migrations without downtime",
+            "Automated monitoring and recovery"
+          ],
+          "wide": true
+        }
+      ]
+    },
+    "caseStudies": {
+      "eyebrow": "Selected Work",
+      "title": "Case Studies in Precision",
+      "cta": "Explore All Case Studies",
+      "items": [
+        {
+          "category": "FINTECH",
+          "title": "Apex Capital",
+          "description": "A high-performance financial platform designed to centralize portfolio insights, operational data and critical business metrics.",
+          "stat1": {
+            "value": "14ms",
+            "label": "API Response"
+          },
+          "stat2": {
+            "value": "99.99%",
+            "label": "Availability"
+          }
+        },
+        {
+          "category": "HEALTHTECH",
+          "title": "Aura Health",
+          "description": "A unified healthcare operations platform connecting teams, workflows and patient information through a secure digital experience.",
+          "stat1": {
+            "value": "38%",
+            "label": "Faster Operations"
+          },
+          "stat2": {
+            "value": "24/7",
+            "label": "Availability"
+          }
+        },
+        {
+          "category": "PROPTECH",
+          "title": "Vanguard Realty",
+          "description": "A real-time property intelligence platform combining inventory, analytics and operational tools into one connected environment.",
+          "stat1": {
+            "value": "42%",
+            "label": "Less Manual Work"
+          },
+          "stat2": {
+            "value": "5",
+            "label": "Systems Unified"
+          }
+        }
+      ]
+    },
+    "methodology": {
+      "eyebrow": "Our Process",
+      "title": "The 6-Stage Methodology",
+      "items": [
+        {
+          "number": "01",
+          "title": "Discovery & Technical Scoping",
+          "description": "We define business goals, technical constraints, system requirements and measurable outcomes before writing code."
+        },
+        {
+          "number": "02",
+          "title": "Architecture & Design",
+          "description": "We design the product structure, data flows, infrastructure and user experience around the real operation."
+        },
+        {
+          "number": "03",
+          "title": "UI & System Delivery",
+          "description": "Interfaces, components and system foundations are built with scalability and maintainability in mind."
+        },
+        {
+          "number": "04",
+          "title": "Precision Engineering & QA",
+          "description": "Development, testing and technical validation happen continuously to reduce risk before production."
+        },
+        {
+          "number": "05",
+          "title": "Automated QA & Pre-Testing",
+          "description": "Critical flows are validated across devices, integrations and environments before deployment."
+        },
+        {
+          "number": "06",
+          "title": "Continuous Delivery & Scale",
+          "description": "We deploy, monitor and evolve the product as your operation grows and new requirements appear."
+        }
+      ]
+    },
+    "modernStack": {
+      "eyebrow": "Technology",
+      "title": "The Modern Stack",
+      "description": "Modern tools, proven architectures and scalable infrastructure selected according to the needs of each product.",
+      "groups": [
+        {
+          "title": "Frontend",
+          "items": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+        },
+        {
+          "title": "Backend",
+          "items": ["NestJS", "Node.js", "REST APIs", "GraphQL"]
+        },
+        {
+          "title": "Data",
+          "items": ["PostgreSQL", "Supabase", "Redis", "Prisma"]
+        },
+        {
+          "title": "Cloud & DevOps",
+          "items": ["Vercel", "AWS", "Railway", "Docker"]
+        }
+      ]
+    },
+    "contactCta": {
+      "badge": "Direct Partner Engagement",
+      "title": "Have a mission-critical project in mind?",
+      "description": "We review inbound inquiries within 24 hours. You will speak directly with a Principal Solutions Architect to evaluate architectural viability, timelines, and resourcing.",
+      "securityTitle": "Security & Confidentiality Guarantee",
+      "securityDescription": "Every project brief is handled under strict confidentiality. We do not outsource development to third parties.",
+      "fields": {
+        "name": "Full Name",
+        "namePlaceholder": "Alexander Vance",
+        "email": "Work Email",
+        "emailPlaceholder": "av@company.com",
+        "company": "Company / Entity",
+        "companyPlaceholder": "Company Name",
+        "category": "Project Category",
+        "categoryPlaceholder": "Select a category",
+        "budget": "Estimated Budget Allocation",
+        "message": "System Specifications & Objectives",
+        "messagePlaceholder": "Describe the core business bottlenecks, expected users/throughput, and strategic target delivery date..."
+      },
+      "categories": [
+        {
+          "value": "web-app",
+          "label": "Custom Web Application"
+        },
+        {
+          "value": "mobile-app",
+          "label": "Mobile Application"
+        },
+        {
+          "value": "cloud",
+          "label": "Cloud & Infrastructure"
+        },
+        {
+          "value": "integration",
+          "label": "Systems Integration"
+        },
+        {
+          "value": "modernization",
+          "label": "Software Modernization"
+        }
+      ],
+      "budgets": [
+        "$50k – $100k",
+        "$100k – $250k",
+        "$250k – $500k+"
+      ],
+      "submit": "Submit Project Brief",
+      "sending": "Sending...",
+      "error": "Something went wrong. Please try again."
+    }
   }
 }

@@ -1,6 +1,274 @@
 {
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "description": "Software personalizado, productos digitales y tecnología diseñada alrededor de la forma en que realmente funciona tu negocio.",
+    "company": "Empresa",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "insights": "Artículos",
+    "capabilities": "Servicios",
+    "webApplications": "Aplicaciones Web",
+    "mobileApplications": "Aplicaciones Móviles",
+    "cloudArchitecture": "Arquitectura Cloud",
+    "integrations": "Integraciones",
+    "contact": "Contacto",
+    "startProject": "Iniciar un proyecto",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
   "home": {
     "title": "Software adaptado a tu negocio",
-    "description": "Diseñamos y desarrollamos productos digitales adaptados a tu negocio."
+    "description": "Diseñamos y desarrollamos aplicaciones web personalizadas y resilientes, arquitecturas en la nube complejas y sistemas digitales de misión crítica para líderes consolidados del mercado e innovadores tecnológicos con financiación.",
+    "hero": {
+      "badge": "Ingeniería de software para negocios modernos",
+      "primaryCta": "Iniciar un proyecto",
+      "secondaryCta": "Ver proyectos"
+    },
+    "stats": [
+      {
+        "value": "$2.4B+",
+        "label": "Valor generado"
+      },
+      {
+        "value": "99.999%",
+        "label": "Confiabilidad del sistema"
+      },
+      {
+        "value": "48",
+        "label": "Productos lanzados"
+      },
+      {
+        "value": "100%",
+        "label": "Soluciones a la medida"
+      }
+    ],
+    "positioning": {
+      "eyebrow": "Nuestro enfoque",
+      "title": "No construimos sitios web genéricos. Diseñamos sistemas de software de alto rendimiento que brindan a las empresas una verdadera ventaja competitiva.",
+      "paragraph1": "Cada proyecto comienza entendiendo cómo funciona realmente tu negocio. Diseñamos alrededor de tus procesos, tus clientes y tus objetivos de crecimiento, en lugar de obligar a tu operación a adaptarse a software genérico.",
+      "paragraph2": "Desde plataformas personalizadas y sistemas internos hasta integraciones, automatización e infraestructura cloud, cada decisión se toma pensando en rendimiento, escalabilidad y mantenimiento a largo plazo."
+    },
+    "services": {
+      "eyebrow": "Nuestro alcance",
+      "title": "Ingeniería para grandes retos",
+      "description": "Desarrollo integral a través de las diferentes capas de una aplicación moderna, desde la arquitectura hasta experiencias digitales rápidas e intuitivas.",
+      "cta": "Ver especificaciones",
+      "items": [
+        {
+          "icon": "web",
+          "title": "Aplicaciones Web",
+          "description": "Dashboards, plataformas empresariales y sistemas operativos personalizados alrededor de procesos de negocio complejos.",
+          "features": [
+            "Experiencias rápidas y responsivas",
+            "Dashboards y visualización de datos",
+            "Control de acceso basado en roles"
+          ]
+        },
+        {
+          "icon": "mobile",
+          "title": "Aplicaciones Móviles",
+          "description": "Experiencias móviles de alto rendimiento diseñadas para ofrecer interacciones intuitivas, confiabilidad y escalabilidad.",
+          "features": [
+            "Desarrollo nativo y multiplataforma",
+            "Integraciones con hardware y dispositivos",
+            "Autenticación y almacenamiento seguro"
+          ]
+        },
+        {
+          "icon": "cloud",
+          "title": "Cloud y Arquitectura de Sistemas",
+          "description": "Infraestructura cloud confiable, despliegues escalables y arquitecturas diseñadas para aplicaciones de alta exigencia.",
+          "features": [
+            "Infraestructura como código",
+            "Entornos cloud escalables",
+            "Arquitectura de despliegue segura"
+          ]
+        },
+        {
+          "icon": "database",
+          "title": "Bases de Datos y Backend",
+          "description": "APIs, bases de datos y sistemas backend de alto rendimiento para procesar y sincronizar información crítica del negocio.",
+          "features": [
+            "Arquitecturas orientadas a eventos",
+            "PostgreSQL y datos distribuidos",
+            "Caché y optimización de rendimiento"
+          ]
+        },
+        {
+          "icon": "integration",
+          "title": "Modernización e Integraciones",
+          "description": "Modernizamos sistemas legacy y conectamos las plataformas de las que ya depende tu operación sin interrumpir el negocio.",
+          "features": [
+            "Modernización de sistemas legacy",
+            "Integraciones con APIs de terceros",
+            "Migraciones progresivas sin interrupciones",
+            "Monitoreo y recuperación automatizada"
+          ],
+          "wide": true
+        }
+      ]
+    },
+    "caseStudies": {
+      "eyebrow": "Proyectos destacados",
+      "title": "Casos de éxito construidos con precisión",
+      "cta": "Explorar todos los proyectos",
+      "items": [
+        {
+          "category": "FINTECH",
+          "title": "Apex Capital",
+          "description": "Una plataforma financiera de alto rendimiento diseñada para centralizar información de portafolios, datos operativos y métricas críticas del negocio.",
+          "stat1": {
+            "value": "14ms",
+            "label": "Respuesta de API"
+          },
+          "stat2": {
+            "value": "99.99%",
+            "label": "Disponibilidad"
+          }
+        },
+        {
+          "category": "HEALTHTECH",
+          "title": "Aura Health",
+          "description": "Una plataforma unificada para operaciones de salud que conecta equipos, procesos e información de pacientes mediante una experiencia digital segura.",
+          "stat1": {
+            "value": "38%",
+            "label": "Operaciones más rápidas"
+          },
+          "stat2": {
+            "value": "24/7",
+            "label": "Disponibilidad"
+          }
+        },
+        {
+          "category": "PROPTECH",
+          "title": "Vanguard Realty",
+          "description": "Una plataforma inmobiliaria en tiempo real que integra inventario, analítica y herramientas operativas en un solo entorno.",
+          "stat1": {
+            "value": "42%",
+            "label": "Menos trabajo manual"
+          },
+          "stat2": {
+            "value": "5",
+            "label": "Sistemas integrados"
+          }
+        }
+      ]
+    },
+    "methodology": {
+      "eyebrow": "Nuestro proceso",
+      "title": "Metodología en 6 etapas",
+      "items": [
+        {
+          "number": "01",
+          "title": "Descubrimiento y alcance técnico",
+          "description": "Definimos objetivos de negocio, restricciones técnicas, requerimientos del sistema y resultados medibles antes de escribir código."
+        },
+        {
+          "number": "02",
+          "title": "Arquitectura y diseño",
+          "description": "Diseñamos la estructura del producto, los flujos de datos, la infraestructura y la experiencia de usuario alrededor de la operación real."
+        },
+        {
+          "number": "03",
+          "title": "Interfaz y construcción del sistema",
+          "description": "Construimos interfaces, componentes y bases del sistema pensando en escalabilidad y mantenimiento a largo plazo."
+        },
+        {
+          "number": "04",
+          "title": "Ingeniería de precisión y QA",
+          "description": "El desarrollo, las pruebas y la validación técnica ocurren de forma continua para reducir riesgos antes de producción."
+        },
+        {
+          "number": "05",
+          "title": "QA automatizado y pre-pruebas",
+          "description": "Validamos los flujos críticos entre dispositivos, integraciones y entornos antes del despliegue."
+        },
+        {
+          "number": "06",
+          "title": "Entrega continua y escalabilidad",
+          "description": "Desplegamos, monitoreamos y evolucionamos el producto conforme crece tu operación y aparecen nuevas necesidades."
+        }
+      ]
+    },
+    "modernStack": {
+      "eyebrow": "Tecnología",
+      "title": "Tecnología moderna para productos escalables",
+      "description": "Herramientas modernas, arquitecturas probadas e infraestructura escalable seleccionadas según las necesidades de cada producto.",
+      "groups": [
+        {
+          "title": "Frontend",
+          "items": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+        },
+        {
+          "title": "Backend",
+          "items": ["NestJS", "Node.js", "REST APIs", "GraphQL"]
+        },
+        {
+          "title": "Datos",
+          "items": ["PostgreSQL", "Supabase", "Redis", "Prisma"]
+        },
+        {
+          "title": "Cloud & DevOps",
+          "items": ["Vercel", "AWS", "Railway", "Docker"]
+        }
+      ]
+    },
+    "contactCta": {
+      "badge": "Trabaja directamente con nuestro equipo",
+      "title": "¿Tienes un proyecto crítico en mente?",
+      "description": "Revisamos cada solicitud en menos de 24 horas. Hablarás directamente con nuestro equipo técnico para evaluar viabilidad, tiempos y recursos necesarios.",
+      "securityTitle": "Seguridad y confidencialidad",
+      "securityDescription": "Cada proyecto se maneja bajo estricta confidencialidad. No subcontratamos el desarrollo con terceros.",
+      "fields": {
+        "name": "Nombre completo",
+        "namePlaceholder": "Alexander Vance",
+        "email": "Correo de trabajo",
+        "emailPlaceholder": "av@empresa.com",
+        "company": "Empresa / Organización",
+        "companyPlaceholder": "Nombre de la empresa",
+        "category": "Tipo de proyecto",
+        "categoryPlaceholder": "Selecciona una categoría",
+        "budget": "Presupuesto estimado",
+        "message": "Especificaciones y objetivos",
+        "messagePlaceholder": "Describe los principales retos del negocio, usuarios esperados, necesidades del sistema y fecha objetivo de entrega..."
+      },
+      "categories": [
+        {
+          "value": "web-app",
+          "label": "Aplicación Web Personalizada"
+        },
+        {
+          "value": "mobile-app",
+          "label": "Aplicación Móvil"
+        },
+        {
+          "value": "cloud",
+          "label": "Cloud e Infraestructura"
+        },
+        {
+          "value": "integration",
+          "label": "Integración de Sistemas"
+        },
+        {
+          "value": "modernization",
+          "label": "Modernización de Software"
+        }
+      ],
+      "budgets": [
+        "$50k – $100k",
+        "$100k – $250k",
+        "$250k – $500k+"
+      ],
+      "submit": "Enviar información del proyecto",
+      "sending": "Enviando...",
+      "error": "Ocurrió un problema. Inténtalo nuevamente."
+    }
   }
 }
