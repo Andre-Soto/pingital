@@ -413,5 +413,408 @@
         }
       ]
     }
+  },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Ingeniería de software de alta confiabilidad",
+      "title": "Software a la medida diseñado para operaciones donde fallar no es una opción.",
+      "description": "Diseñamos, arquitectamos y desarrollamos sistemas de software críticos para organizaciones donde el rendimiento, la disponibilidad y la integridad de los datos son fundamentales. Cada solución se construye alrededor de las necesidades reales de tu operación, con arquitectura escalable y confiabilidad de nivel producción.",
+      "primaryCta": "Explorar servicios",
+      "secondaryCta": "Nuestro proceso",
+      "specification": {
+        "brand": "Pingital",
+        "label": "Auditoría técnica",
+        "disciplinesLabel": "Disciplinas principales",
+        "disciplinesValue": "06",
+        "ownershipLabel": "Propiedad intelectual",
+        "ownershipValue": "100% TUYA",
+        "coverageLabel": "Cobertura automatizada",
+        "coverageValue": ">90% ESTRICTA",
+        "downtimeLabel": "Objetivo de interrupción",
+        "downtimeValue": "0.00%",
+        "reviewTitle": "Revisión de arquitectura",
+        "reviewDescription": "Cada proyecto comienza con una evaluación técnica antes de iniciar la implementación."
+      },
+      "capabilities": [
+        "Propiedad del código",
+        "Transferencia total de propiedad intelectual",
+        "Cobertura de pruebas automatizadas",
+        "Arquitectura para despliegues sin interrupciones"
+      ]
+    },
+    "disciplines": {
+      "eyebrow": "Capacidades de ingeniería",
+      "title": "Arquitectura y desarrollo a través de todo el stack tecnológico.",
+      "description": "No trabajamos como desarrolladores generalistas. Cada área se aborda como una disciplina técnica con requisitos específicos de arquitectura, rendimiento, seguridad y confiabilidad.",
+      "problemsLabel": "Problemas de negocio que resolvemos",
+      "stackLabel": "Stack tecnológico",
+      "items": [
+        {
+          "eyebrow": "APLICACIONES WEB",
+          "title": "Aplicaciones Web y SaaS Empresarial",
+          "description": "Aplicaciones cloud, dashboards operativos y plataformas multiusuario diseñadas para procesos empresariales rápidos, confiables y escalables.",
+          "problems": [
+            "Plataformas SaaS empresariales",
+            "Herramientas para procesos internos",
+            "Dashboards financieros y operativos",
+            "Sistemas colaborativos en tiempo real"
+          ],
+          "stack": ["Next.js", "React", "TypeScript", "NestJS", "PostgreSQL"]
+        },
+        {
+          "eyebrow": "APLICACIONES MÓVILES",
+          "title": "Aplicaciones Móviles de Alto Rendimiento",
+          "description": "Experiencias móviles nativas y multiplataforma diseñadas para interacciones fluidas, operación offline, sincronización en segundo plano y uso seguro de capacidades del dispositivo.",
+          "problems": [
+            "Aplicaciones móviles nativas",
+            "Sistemas en tiempo real",
+            "Autenticación biométrica",
+            "Experiencias offline y de baja latencia"
+          ],
+          "stack": ["React Native", "Swift", "Expo", "Supabase", "Firebase"]
+        },
+        {
+          "eyebrow": "SISTEMAS BACKEND",
+          "title": "Backend Distribuido y Sistemas en Tiempo Real",
+          "description": "Servicios orientados a eventos, procesamiento distribuido, mensajería de alta concurrencia y flujos de datos transaccionales para operaciones exigentes.",
+          "problems": [
+            "Procesamiento de grandes volúmenes de transacciones",
+            "Sistemas de pago confiables",
+            "Arquitecturas orientadas a eventos",
+            "Procesamiento de datos a gran escala"
+          ],
+          "stack": ["NestJS", "Node.js", "Kafka", "Redis", "PostgreSQL"]
+        },
+        {
+          "eyebrow": "INFRAESTRUCTURA CLOUD",
+          "title": "Cloud, Kubernetes y Confiabilidad de Sistemas",
+          "description": "Infraestructura como código, despliegues escalables, orquestación de contenedores y arquitectura cloud segura para sistemas críticos en producción.",
+          "problems": [
+            "Arquitectura cloud multi-región",
+            "Orquestación de contenedores",
+            "Recuperación ante desastres",
+            "Monitoreo y observabilidad"
+          ],
+          "stack": ["AWS", "Docker", "Kubernetes", "Terraform", "Cloudflare"]
+        },
+        {
+          "eyebrow": "INGENIERÍA DE DATOS",
+          "title": "Arquitectura de Bases de Datos y Persistencia a Gran Escala",
+          "description": "Optimización relacional, persistencia distribuida, procesamiento de grandes volúmenes de información y caché de alto rendimiento.",
+          "problems": [
+            "Escalamiento de PostgreSQL",
+            "Particionamiento y sharding horizontal",
+            "Capas de caché de alto rendimiento",
+            "Búsqueda, indexación y analítica"
+          ],
+          "stack": ["PostgreSQL", "Redis", "Supabase", "MySQL", "OpenSearch"]
+        },
+        {
+          "eyebrow": "MODERNIZACIÓN DE SISTEMAS",
+          "title": "Modernización Empresarial e Integración de Sistemas",
+          "description": "Modernizamos plataformas legacy hacia servicios modernos sin comprometer la estabilidad de producción, los procesos existentes ni la continuidad del negocio.",
+          "problems": [
+            "Modernización de plataformas legacy",
+            "Integraciones con ERP y CRM",
+            "APIs personalizadas y seguras",
+            "Sincronización de sistemas en tiempo real"
+          ],
+          "stack": ["REST APIs", "GraphQL", "HubSpot", "AWS", "Webhooks"]
+        }
+      ]
+    },
+    "executableSpecs": {
+      "eyebrow": "Sistemas ejecutables",
+      "title": "Especificaciones ejecutables en lugar de documentación ambigua.",
+      "description": "Cada proyecto se define mediante arquitectura explícita, interfaces tipadas, validación automatizada y estándares de ingeniería listos para producción, en lugar de depender de supuestos o documentación imprecisa.",
+      "stats": [
+        {
+          "value": "100%",
+          "label": "Propiedad del código"
+        },
+        {
+          "value": ">90%",
+          "label": "Cobertura automatizada"
+        }
+      ],
+      "codeLabel": "payment.service.ts"
+    },
+    "comparison": {
+      "eyebrow": "Modelo de entrega",
+      "title": "Pingital vs. una agencia tradicional de software",
+      "description": "Pingital está diseñado para eliminar los problemas comunes del outsourcing tradicional: propiedad poco clara, responsabilidad técnica diluida y capas innecesarias entre el cliente y el equipo que realmente construye el producto.",
+      "columns": {
+        "dimension": "Dimensión operativa",
+        "standard": "Agencia / Outsourcer tradicional",
+        "pingital": "Modelo de entrega Pingital"
+      },
+      "rows": [
+        {
+          "label": "Liderazgo técnico",
+          "standard": "Ejecutivos de cuenta junior y múltiples capas de personal externo",
+          "pingital": "Liderazgo técnico senior directo"
+        },
+        {
+          "label": "Propiedad intelectual y código",
+          "standard": "Transferencia condicionada al cierre de hitos",
+          "pingital": "100% propiedad del cliente desde la entrega"
+        },
+        {
+          "label": "Enfoque de arquitectura",
+          "standard": "Decisiones manuales, herramientas improvisadas y deuda técnica",
+          "pingital": "Estándares estrictos de arquitectura y sistemas tipados"
+        },
+        {
+          "label": "Gobernanza técnica",
+          "standard": "Revisión limitada y estándares de ingeniería inconsistentes",
+          "pingital": "Gobernanza técnica continua y validación permanente"
+        },
+        {
+          "label": "Soporte post-lanzamiento",
+          "standard": "Retainers por hora para resolver errores",
+          "pingital": "Soporte estructurado y responsabilidad post-lanzamiento"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Sin intermediarios",
+          "description": "Cada decisión técnica crítica se trabaja directamente con el equipo responsable de arquitectura y entrega."
+        },
+        {
+          "title": "Integración continua",
+          "description": "El progreso de ingeniería se integra y mantiene visible durante todo el proceso de desarrollo."
+        },
+        {
+          "title": "SLA formal de entrega",
+          "description": "Las expectativas de entrega, responsabilidades y condiciones de soporte se definen antes de comenzar la implementación.",
+          "accent": true
+        }
+      ]
+    },
+    "deliveryFramework": {
+      "eyebrow": "Modelo de entrega",
+      "title": "Proceso de entrega en 4 etapas",
+      "description": "Hitos claros, entregas predecibles y visibilidad durante todo el proyecto, desde la arquitectura inicial hasta la transferencia a producción.",
+      "deliverableLabel": "Entregable",
+      "phases": [
+        {
+          "number": "01",
+          "eyebrow": "ETAPA 1",
+          "title": "Descubrimiento y modelado de riesgos",
+          "description": "Auditoría profunda de arquitectura, definición de dominios, análisis de posibles fallos y evaluación de riesgos de seguridad.",
+          "deliverable": "Blueprint de arquitectura, mapa del sistema y evaluación técnica de riesgos."
+        },
+        {
+          "number": "02",
+          "eyebrow": "ETAPA 2",
+          "title": "Prototipado y validación técnica",
+          "description": "Validamos flujos críticos, supuestos de rendimiento e integraciones antes de comenzar la implementación completa.",
+          "deliverable": "Prototipo técnico validado y estrategia de implementación."
+        },
+        {
+          "number": "03",
+          "eyebrow": "ETAPA 3",
+          "title": "Ejecución por sprints y entregas continuas",
+          "description": "Desarrollo listo para producción mediante sprints controlados, integración continua y entregas medibles.",
+          "deliverable": "Software funcional entregado progresivamente en entornos preparados para producción."
+        },
+        {
+          "number": "04",
+          "eyebrow": "ETAPA 4",
+          "title": "Optimización y transferencia operativa",
+          "description": "Refuerzo de seguridad, validación de rendimiento, documentación, observabilidad y transferencia completa del sistema.",
+          "deliverable": "Sistema en producción, código fuente, infraestructura y documentación técnica."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Sin capas comerciales. Sin intermediarios.",
+      "title": "Inicia una evaluación técnica de tu proyecto.",
+      "description": "Conecta directamente con el equipo de ingeniería de Pingital. Revisamos requerimientos, restricciones del sistema, riesgos de arquitectura y prioridades de entrega antes de comenzar la implementación.",
+      "points": [
+        "Contacto técnico directo",
+        "Sin intermediarios comerciales",
+        "Respuesta en menos de 24 horas"
+      ],
+      "primaryCta": "Solicitar evaluación técnica",
+      "secondaryCta": "Ver proceso de contacto"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "Sobre Pingital",
+      "topLabels": [
+        "Arquitectura de alta confiabilidad",
+        "Liderazgo técnico directo"
+      ],
+      "title": "Construimos software con la precisión de la ingeniería de alta confiabilidad.",
+      "leftEyebrow": "Equipos de precisión",
+      "leftDescription": "Un modelo de ingeniería enfocado en liderazgo técnico senior, calidad medible y confiabilidad operativa.",
+      "description": "Pingital nació de una idea simple: los negocios más críticos necesitan equipos de software que piensen como ingenieros, no como agencias generalistas. Evitamos la responsabilidad diluida, las capas innecesarias y los modelos de entrega opacos para trabajar con responsabilidad técnica directa y construir sistemas capaces de soportar años de operación real.",
+      "stats": [
+        {
+          "value": "48",
+          "accent": "/48",
+          "label": "Entregas de ingeniería",
+          "description": "Proyectos entregados bajo estándares estrictos"
+        },
+        {
+          "value": "100%",
+          "accent": "",
+          "label": "Propiedad intelectual del cliente",
+          "description": "Propiedad total y sin restricciones"
+        },
+        {
+          "value": "0",
+          "accent": "CVE",
+          "label": "Vulnerabilidades críticas",
+          "description": "Sin vulnerabilidades críticas conocidas en producción"
+        },
+        {
+          "value": "3",
+          "accent": "",
+          "label": "Hubs globales de ingeniería",
+          "description": "San Francisco · Zúrich · Londres"
+        }
+      ]
+    },
+    "manifesto": {
+      "eyebrow": "Principios de trabajo",
+      "title": "El Manifiesto Pingital",
+      "description": "Un modelo de ingeniería basado en responsabilidad directa, transparencia y excelencia técnica.",
+      "principleLabel": "PRINCIPIO",
+      "items": [
+        {
+          "number": "01",
+          "title": "Calidad sobre volumen",
+          "description": "Limitamos intencionalmente la cantidad de proyectos simultáneos para mantener a nuestros ingenieros senior enfocados en el trabajo que realmente importa.",
+          "footer": "Proyectos activos: 4–6"
+        },
+        {
+          "number": "02",
+          "title": "Ingeniería primero",
+          "description": "Evitamos capas comerciales innecesarias. Trabajas directamente con las personas responsables de arquitectura y entrega.",
+          "footer": "Liderazgo técnico: directo"
+        },
+        {
+          "number": "03",
+          "title": "Propiedad y transparencia",
+          "description": "Desde el primer día, el código fuente, infraestructura, documentación y propiedad intelectual específica del proyecto pertenecen al cliente.",
+          "footer": "Propiedad intelectual: 100%"
+        }
+      ]
+    },
+    "principles": {
+      "eyebrow": "Principios de ingeniería",
+      "title": "Los Principios Pingital",
+      "description": "Cada repositorio, decisión de arquitectura y despliegue a producción sigue principios diseñados para reducir riesgos, mejorar la confiabilidad y crear software mantenible a largo plazo.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Software que sí se utiliza",
+          "description": "Cada sistema que construimos debe resolver un problema operativo real y generar valor medible en producción.",
+          "footer": "CONSTRUIDO PARA OPERACIONES REALES"
+        },
+        {
+          "number": "02",
+          "title": "Estado predecible y tipado fuerte",
+          "description": "Favorecemos contratos explícitos, estados predecibles y sistemas fuertemente tipados que reducen la ambigüedad a medida que el software crece.",
+          "footer": "PREDECIBILIDAD POR DISEÑO"
+        },
+        {
+          "number": "03",
+          "title": "Pruebas automatizadas de regresión y fallos",
+          "description": "Los sistemas críticos requieren validación automatizada, observabilidad y pruebas de fallos antes de que los problemas lleguen a producción.",
+          "footer": "CONFIABILIDAD ANTES DEL RELEASE"
+        },
+        {
+          "number": "04",
+          "title": "Transferencia total de propiedad intelectual",
+          "description": "Tu empresa es propietaria del software, código fuente, infraestructura y activos específicos que construimos para el proyecto.",
+          "footer": "100% PROPIEDAD DEL CLIENTE"
+        },
+        {
+          "number": "05",
+          "title": "Impacto empresarial medible",
+          "description": "Las decisiones de ingeniería deben mejorar la velocidad operativa, eliminar trabajo manual y generar impacto medible para el negocio.",
+          "footer": "INGENIERÍA CON RESULTADOS"
+        },
+        {
+          "number": "06",
+          "title": "Transferencia de conocimiento",
+          "description": "La documentación, las decisiones de arquitectura y el contexto técnico permanecen accesibles para que tu organización nunca dependa de nosotros.",
+          "footer": "SIN VENDOR LOCK-IN"
+        }
+      ]
+    },
+    "engineeringStandard": {
+      "eyebrow": "Disciplina de producción",
+      "title": "Cero tolerancia al software frágil.",
+      "description": "El software confiable no aparece después de una última revisión de calidad. Se construye con contratos explícitos, validaciones automatizadas, sistemas observables y decisiones de ingeniería que consideran que los fallos pueden ocurrir.",
+      "metricLabel": "Objetivo en producción",
+      "metricValue": "Predecible por diseño",
+      "codeLabel": "Estándar de ingeniería",
+      "codeLines": [
+        "type ProductionSystem = {",
+        "  observable: true;",
+        "  tested: true;",
+        "  recoverable: true;",
+        "  documented: true;",
+        "};",
+        "",
+        "if (!system.isReliable()) {",
+        "  blockProductionRelease();",
+        "}"
+      ]
+    },
+    "operations": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Diseñados para equipos modernos y distribuidos.",
+      "description": "Nuestro modelo de trabajo se basa en comunicación directa, responsabilidades claras e infraestructura que facilita la colaboración sin fricción operativa innecesaria.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Entrega alineada por zona horaria",
+          "description": "Organizamos la comunicación y las entregas alrededor de ventanas prácticas de colaboración para evitar que las decisiones técnicas permanezcan bloqueadas durante días.",
+          "details": [
+            "Ventanas claras de comunicación",
+            "Feedback técnico rápido",
+            "Acceso directo a ingeniería"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Colaboración remote-first",
+          "description": "Los proyectos se organizan alrededor de documentación, progreso visible y responsabilidades técnicas claras en lugar de reuniones innecesarias.",
+          "details": [
+            "Decisiones documentadas",
+            "Estado del proyecto transparente",
+            "Flujos preparados para trabajo asíncrono"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Operaciones cloud-native",
+          "description": "Diseñamos los procesos de despliegue e infraestructura alrededor de plataformas cloud modernas, automatización y observabilidad en producción.",
+          "details": [
+            "Despliegues automatizados",
+            "Monitoreo de producción",
+            "Infraestructura escalable"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Los sistemas complejos requieren atención técnica directa",
+      "title": "¿Tienes un reto técnico complejo?",
+      "description": "Habla directamente con el equipo de ingeniería de Pingital. Revisamos tus requerimientos, restricciones y riesgos técnicos antes de recomendar una arquitectura o estrategia de implementación.",
+      "primaryCta": "Iniciar conversación técnica",
+      "secondaryCta": "Explorar nuestros servicios",
+      "signals": [
+        "Acceso directo a ingeniería",
+        "Arquitectura antes de implementación",
+        "Sin capas comerciales innecesarias"
+      ]
+    }
   }
 }

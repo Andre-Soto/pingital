@@ -8,17 +8,122 @@ import CaseStudies from "@/components/sections/home/CaseStudies";
 import Methodology from "@/components/sections/home/Methodology";
 import ModernStack from "@/components/sections/home/ModernStack";
 import ContactCTA from "@/components/sections/home/ContactCTA";
+import type { Metadata } from "next";
 
-export default async function Home({
-  params,
-}: {
+type HomePageProps = {
   params: Promise<{ lang: Locale }>;
-}) {
+};
+
+export async function generateMetadata({
+  params,
+}: HomePageProps): Promise<Metadata> {
+  const { lang } = await params;
+
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+  const isSpanish = lang === "es";
+
+  const title = isSpanish
+    ? "Desarrollo de Software a la Medida"
+    : "Custom Software Development";
+
+  const description = isSpanish
+    ? "Pingital diseña aplicaciones web, apps móviles, sistemas empresariales, integraciones y arquitectura cloud adaptados a los procesos reales de tu negocio."
+    : "Pingital engineers custom web applications, mobile apps, enterprise systems, integrations and cloud infrastructure around real business processes.";
+
+  return {
+    title,
+    description,
+
+    alternates: {
+      canonical: `${siteUrl}/${lang}`,
+      languages: {
+        en: `${siteUrl}/en`,
+        es: `${siteUrl}/es`,
+      },
+    },
+
+    openGraph: {
+      title: `${title} | Pingital`,
+      description,
+      url: `${siteUrl}/${lang}`,
+      siteName: "Pingital",
+      type: "website",
+      locale: isSpanish ? "es_MX" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} | Pingital`,
+      description,
+    },
+  };
+}
+
+export default async function HomePage({
+  params,
+}: HomePageProps) {
   const { lang } = await params;
   const dictionary = await getDictionary(lang);
 
+  const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+  const isSpanish = lang === "es";
+  const homeUrl = `${siteUrl}/${lang}`;
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${siteUrl}/#organization`,
+        name: "Pingital",
+        url: siteUrl,
+        description: isSpanish
+          ? "Empresa de ingeniería de software especializada en aplicaciones web, sistemas empresariales, integraciones, aplicaciones móviles y arquitectura cloud."
+          : "Software engineering company specializing in web applications, enterprise systems, integrations, mobile applications and cloud architecture.",
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${siteUrl}/#website`,
+        url: siteUrl,
+        name: "Pingital",
+        publisher: {
+          "@id": `${siteUrl}/#organization`,
+        },
+        inLanguage: ["en-US", "es-MX"],
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${homeUrl}#webpage`,
+        url: homeUrl,
+        name: isSpanish
+          ? "Pingital | Desarrollo de Software a la Medida"
+          : "Pingital | Custom Software Development",
+        description: isSpanish
+          ? "Diseñamos aplicaciones web, apps móviles, sistemas empresariales, integraciones y arquitectura cloud alrededor de las necesidades reales de cada negocio."
+          : "We engineer custom web applications, mobile apps, enterprise systems, integrations and cloud infrastructure around real business requirements.",
+        isPartOf: {
+          "@id": `${siteUrl}/#website`,
+        },
+        about: {
+          "@id": `${siteUrl}/#organization`,
+        },
+        inLanguage: isSpanish ? "es-MX" : "en-US",
+      },
+    ],
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
+        }}
+      />
       <Hero
         title={dictionary.home.title}
         description={dictionary.home.description}

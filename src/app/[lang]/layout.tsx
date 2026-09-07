@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+
 import "../globals.css";
+
 import { notFound } from "next/navigation";
 import { GoogleTagManager } from "@next/third-parties/google";
 
@@ -7,39 +9,35 @@ import { locales, type Locale } from "@/i18n/config";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}): Promise<Metadata> {
-  const { lang } = await params;
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
-  const isSpanish = lang === "es";
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
 
-  return {
-    title: {
-      default: "Pingital",
-      template: "%s | Pingital",
-    },
+  applicationName: "Pingital",
 
-    description: isSpanish
-      ? "Desarrollo de software, aplicaciones web y soluciones digitales adaptadas a tu negocio."
-      : "Software development, web applications and digital solutions built around your business.",
+  title: {
+    default: "Pingital",
+    template: "%s | Pingital",
+  },
 
-    alternates: {
-      canonical: `${siteUrl}/${lang}`,
-      languages: {
-        en: `${siteUrl}/en`,
-        es: `${siteUrl}/es`,
-      },
-    },
-  };
-}
+  description:
+    "Pingital engineers custom software, web applications, enterprise systems, integrations and cloud infrastructure.",
+
+  openGraph: {
+    siteName: "Pingital",
+    type: "website",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export function generateStaticParams() {
-  return [{ lang: "en" }, { lang: "es" }];
+  return locales.map((lang) => ({ lang }));
 }
 
 export default async function RootLayout({
@@ -53,7 +51,7 @@ export default async function RootLayout({
 
   if (!locales.includes(lang as Locale)) {
     notFound();
-    }
+  }
 
   return (
     <html lang={lang}>

@@ -4,6 +4,16 @@ import LeadConversionEvent from "@/components/common/LeadConversionEvent";
 import { getDictionary } from "@/i18n/get-dictionary";
 import type { Locale } from "@/i18n/config";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Thank You",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
 export default async function ThankYouPage({
   params,
 }: {

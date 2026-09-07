@@ -413,5 +413,408 @@
         }
       ]
     }
+  },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "High-Assurance Software Engineering",
+      "title": "Custom software engineering built for zero-failure operational reality.",
+      "description": "We design, architect and deploy mission-critical software systems for organizations where performance, uptime and data integrity cannot be compromised. Every solution is built around your operational requirements, with scalable architecture and production-grade reliability.",
+      "primaryCta": "Explore Disciplines",
+      "secondaryCta": "Engagement Protocol",
+      "specification": {
+        "brand": "Pingital",
+        "label": "Spec Audit",
+        "disciplinesLabel": "Core Disciplines",
+        "disciplinesValue": "06",
+        "ownershipLabel": "IP Ownership",
+        "ownershipValue": "100% UNENCUMBERED",
+        "coverageLabel": "Automated Coverage",
+        "coverageValue": ">90% STRICT",
+        "downtimeLabel": "Downtime Target",
+        "downtimeValue": "0.00%",
+        "reviewTitle": "Architecture Review",
+        "reviewDescription": "Every engagement starts with a technical assessment before implementation."
+      },
+      "capabilities": [
+        "Code Ownership",
+        "100% Unencumbered IP Transfer",
+        "Automated Test Coverage",
+        "Zero-Downtime Governance"
+      ]
+    },
+    "disciplines": {
+      "eyebrow": "Engineering Capabilities",
+      "title": "Architectural depth across the entire computational stack.",
+      "description": "We do not operate as generalist developers. Each engineering domain is treated as a technical discipline with dedicated architecture, performance and reliability requirements.",
+      "problemsLabel": "Business Problems Solved",
+      "stackLabel": "Verified Tech Stack",
+      "items": [
+        {
+          "eyebrow": "WEB APPLICATIONS",
+          "title": "Web Applications & Enterprise SaaS",
+          "description": "High-throughput cloud applications, complex operational dashboards and multi-tenant customer portals engineered for responsive, reliable business operations.",
+          "problems": [
+            "Enterprise SaaS platforms",
+            "Internal workflow tools",
+            "Financial and operational dashboards",
+            "Collaborative real-time systems"
+          ],
+          "stack": ["Next.js", "React", "TypeScript", "NestJS", "PostgreSQL"]
+        },
+        {
+          "eyebrow": "MOBILE APPLICATIONS",
+          "title": "High-Performance Mobile Applications",
+          "description": "Native and cross-platform mobile experiences engineered for fluid interactions, offline-first workflows, background synchronization and secure device capabilities.",
+          "problems": [
+            "Native mobile applications",
+            "Real-time client systems",
+            "Biometric authentication",
+            "Offline and low-latency experiences"
+          ],
+          "stack": ["React Native", "Swift", "Expo", "Supabase", "Firebase"]
+        },
+        {
+          "eyebrow": "BACKEND SYSTEMS",
+          "title": "Distributed Backend Systems & Real-Time Engines",
+          "description": "Reliable event-driven services, distributed job orchestration, high-concurrency messaging and transactional data pipelines designed for demanding operations.",
+          "problems": [
+            "High-volume transaction processing",
+            "Resilient payment systems",
+            "Event-driven architectures",
+            "High-scale data ingestion"
+          ],
+          "stack": ["NestJS", "Node.js", "Kafka", "Redis", "PostgreSQL"]
+        },
+        {
+          "eyebrow": "CLOUD INFRASTRUCTURE",
+          "title": "Cloud Infrastructure, Kubernetes & Site Reliability",
+          "description": "Resilient infrastructure as code, scalable deployments, container orchestration and secure cloud architecture designed for production-critical systems.",
+          "problems": [
+            "Multi-region cloud architecture",
+            "Container orchestration",
+            "Disaster recovery",
+            "Observability and monitoring"
+          ],
+          "stack": ["AWS", "Docker", "Kubernetes", "Terraform", "Cloudflare"]
+        },
+        {
+          "eyebrow": "DATA ENGINEERING",
+          "title": "Database Architecture & High-Scale Persistence",
+          "description": "Relational optimization, distributed persistence, time-series workloads and high-performance caching designed for large and growing datasets.",
+          "problems": [
+            "PostgreSQL cluster scaling",
+            "Partitioning and horizontal sharding",
+            "High-performance caching layers",
+            "Search indexing and analytics"
+          ],
+          "stack": ["PostgreSQL", "Redis", "Supabase", "MySQL", "OpenSearch"]
+        },
+        {
+          "eyebrow": "SYSTEMS MODERNIZATION",
+          "title": "Enterprise Modernization & Systems Integration",
+          "description": "Modernization of legacy platforms into composable services while preserving production stability, existing workflows and business continuity.",
+          "problems": [
+            "Legacy platform modernization",
+            "ERP and CRM integrations",
+            "Secure custom API layers",
+            "Real-time systems synchronization"
+          ],
+          "stack": ["REST APIs", "GraphQL", "HubSpot", "AWS", "Webhooks"]
+        }
+      ]
+    },
+    "executableSpecs": {
+      "eyebrow": "Executable Systems",
+      "title": "Executable specifications over ambiguous documentation.",
+      "description": "Every project is defined through explicit architecture, typed interfaces, automated validation and production-ready engineering standards instead of assumptions and vague documentation.",
+      "stats": [
+        {
+          "value": "100%",
+          "label": "Code ownership"
+        },
+        {
+          "value": ">90%",
+          "label": "Automated coverage"
+        }
+      ],
+      "codeLabel": "payment.service.ts"
+    },
+    "comparison": {
+      "eyebrow": "Engineering Delivery Model",
+      "title": "Pingital vs. Standard Agency Outsourcing",
+      "description": "We built Pingital to eliminate the principal-agent problems common in traditional software outsourcing: unclear ownership, diluted technical responsibility and unnecessary layers between the client and the engineers building the product.",
+      "columns": {
+        "dimension": "Operational Dimension",
+        "standard": "Standard Agency / Outsourcer",
+        "pingital": "Pingital Delivery Model"
+      },
+      "rows": [
+        {
+          "label": "Technical Leadership",
+          "standard": "Junior account managers and offshore staffing layers",
+          "pingital": "Direct senior technical leadership"
+        },
+        {
+          "label": "IP & Code Ownership",
+          "standard": "Conditional transfer upon final milestones",
+          "pingital": "100% client ownership from delivery"
+        },
+        {
+          "label": "Architecture Approach",
+          "standard": "Manual decisions, ad-hoc tooling and technical debt",
+          "pingital": "Strict architecture standards and typed systems"
+        },
+        {
+          "label": "Architecture Governance",
+          "standard": "Limited review and inconsistent engineering standards",
+          "pingital": "Continuous technical governance and validation"
+        },
+        {
+          "label": "Post-Launch Warranty",
+          "standard": "Hourly retainers for immediate bug resolution",
+          "pingital": "Structured post-launch support and accountability"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Zero Middlemen",
+          "description": "Every critical technical decision is handled directly by the team responsible for architecture and delivery."
+        },
+        {
+          "title": "Daily Sync & Push",
+          "description": "Engineering progress is continuously integrated and visible throughout the delivery process."
+        },
+        {
+          "title": "Formal Delivery SLA",
+          "description": "Delivery expectations, responsibilities and support conditions are defined before implementation begins.",
+          "accent": true
+        }
+      ]
+    },
+    "deliveryFramework": {
+      "eyebrow": "Delivery Blueprint",
+      "title": "4-Phase Delivery Framework",
+      "description": "Predictable milestones, deterministic delivery and zero surprises. From initial architecture through production handover.",
+      "deliverableLabel": "Deliverable",
+      "phases": [
+        {
+          "number": "01",
+          "eyebrow": "PHASE 1",
+          "title": "Discovery & Threat Modeling",
+          "description": "Deep-dive architecture audit, domain boundary mapping, failure-mode analysis and security threat modeling.",
+          "deliverable": "Architecture blueprint, system map and technical risk assessment."
+        },
+        {
+          "number": "02",
+          "eyebrow": "PHASE 2",
+          "title": "Spike & Core Engine Prototyping",
+          "description": "Technical validation of critical workflows, performance assumptions and integration constraints before full implementation.",
+          "deliverable": "Validated technical prototype and implementation strategy."
+        },
+        {
+          "number": "03",
+          "eyebrow": "PHASE 3",
+          "title": "Sprint Execution & Bi-Weekly Releases",
+          "description": "Production-ready development through controlled engineering sprints, continuous integration and measurable releases.",
+          "deliverable": "Working software released incrementally into production-ready environments."
+        },
+        {
+          "number": "04",
+          "eyebrow": "PHASE 4",
+          "title": "Hardening & Autonomous Handover",
+          "description": "Security hardening, performance validation, documentation, observability and complete operational transfer.",
+          "deliverable": "Production system, source code, infrastructure and technical documentation."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "No sales layers. No account managers.",
+      "title": "Initiate your technical scoping consultation.",
+      "description": "Connect directly with Pingital's engineering team. We review requirements, system constraints, architecture risks and delivery priorities before implementation begins.",
+      "points": [
+        "Direct technical contact",
+        "Zero sales handoff",
+        "Response within 24 hours"
+      ],
+      "primaryCta": "Schedule Scoping Session",
+      "secondaryCta": "View Contact Process"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "About Pingital",
+      "topLabels": [
+        "High-Assurance Architecture",
+        "Direct Technical Leadership"
+      ],
+      "title": "We build software with the precision of high-reliability engineering.",
+      "leftEyebrow": "Precision Teams",
+      "leftDescription": "A focused engineering model built around senior technical leadership, measurable quality and operational reliability.",
+      "description": "Pingital was founded on a simple premise: the world's most critical businesses need software teams that think like engineers, not generalist agencies. We reject diluted ownership, unnecessary layers and black-box delivery models in favor of direct technical accountability and systems designed to endure years of real-world operation.",
+      "stats": [
+        {
+          "value": "48",
+          "accent": "/48",
+          "label": "Engineering delivery",
+          "description": "Shipped with strict compliance"
+        },
+        {
+          "value": "100%",
+          "accent": "",
+          "label": "Client IP ownership",
+          "description": "Unwavering ownership discipline"
+        },
+        {
+          "value": "0",
+          "accent": "CVE",
+          "label": "Critical vulnerabilities",
+          "description": "Zero known exploits in production"
+        },
+        {
+          "value": "3",
+          "accent": "",
+          "label": "Global engineering hubs",
+          "description": "San Francisco · Zurich · London"
+        }
+      ]
+    },
+    "manifesto": {
+      "eyebrow": "Operating Principles",
+      "title": "The Pingital Manifesto",
+      "description": "A focused engineering model built around accountability, transparency and technical excellence.",
+      "principleLabel": "PRINCIPLE",
+      "items": [
+        {
+          "number": "01",
+          "title": "Quality Over Volume",
+          "description": "We intentionally cap concurrent engagements to keep senior engineers focused on the work that matters most.",
+          "footer": "Active projects: 4–6"
+        },
+        {
+          "number": "02",
+          "title": "Engineering First, Marketing Never",
+          "description": "We do not employ unnecessary sales layers. You work directly with the people responsible for architecture and delivery.",
+          "footer": "Technical leadership: direct"
+        },
+        {
+          "number": "03",
+          "title": "Radical Ownership & Transparency",
+          "description": "From day one, all source code, infrastructure, documentation and project-specific intellectual property belong to the client.",
+          "footer": "IP ownership: 100%"
+        }
+      ]
+    },
+    "principles": {
+      "eyebrow": "Engineering Principles",
+      "title": "The Pingital Principles",
+      "description": "Every repository, architecture decision and production release follows principles designed to reduce risk, improve reliability and create software that remains maintainable over time.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Zero-Shelfware Guarantee",
+          "description": "Every system we build must solve a real operational problem and deliver measurable value in production.",
+          "footer": "BUILT FOR REAL OPERATIONS"
+        },
+        {
+          "number": "02",
+          "title": "Deterministic State & Strong Typing",
+          "description": "We favor explicit contracts, predictable state and strongly typed systems that reduce ambiguity as software grows.",
+          "footer": "PREDICTABILITY BY DESIGN"
+        },
+        {
+          "number": "03",
+          "title": "Automated Regression & Chaos Testing",
+          "description": "Critical systems require automated validation, observability and failure testing before issues reach production.",
+          "footer": "RELIABILITY BEFORE RELEASE"
+        },
+        {
+          "number": "04",
+          "title": "Unencumbered IP Transfer",
+          "description": "Your business owns the software, source code, infrastructure and project-specific assets we build for you.",
+          "footer": "100% CLIENT OWNERSHIP"
+        },
+        {
+          "number": "05",
+          "title": "Measurable Business Throughput",
+          "description": "Engineering decisions should improve operational speed, eliminate manual work and create measurable business impact.",
+          "footer": "ENGINEERING WITH OUTCOMES"
+        },
+        {
+          "number": "06",
+          "title": "Seamless Knowledge Transfer",
+          "description": "Documentation, architecture decisions and technical context remain accessible so your organization is never dependent on us.",
+          "footer": "NO VENDOR LOCK-IN"
+        }
+      ]
+    },
+    "engineeringStandard": {
+      "eyebrow": "Production Discipline",
+      "title": "Zero tolerance for fragile software.",
+      "description": "Reliable software is not the result of a final QA pass. It comes from explicit contracts, automated checks, observable systems and engineering decisions that assume failure can happen.",
+      "metricLabel": "Production objective",
+      "metricValue": "Predictable by design",
+      "codeLabel": "Engineering baseline",
+      "codeLines": [
+        "type ProductionSystem = {",
+        "  observable: true;",
+        "  tested: true;",
+        "  recoverable: true;",
+        "  documented: true;",
+        "};",
+        "",
+        "if (!system.isReliable()) {",
+        "  blockProductionRelease();",
+        "}"
+      ]
+    },
+    "operations": {
+      "eyebrow": "How We Operate",
+      "title": "Built for modern distributed teams.",
+      "description": "Our delivery model is designed around direct communication, clear ownership and infrastructure that supports collaboration without unnecessary operational friction.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Timezone-Aligned Delivery",
+          "description": "We structure communication and delivery around practical overlap with client teams so technical decisions never sit blocked for days.",
+          "details": [
+            "Clear communication windows",
+            "Fast technical feedback",
+            "Direct engineering access"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Remote-First Collaboration",
+          "description": "Projects are organized around documentation, visible progress and clear technical ownership rather than unnecessary meetings.",
+          "details": [
+            "Documented decisions",
+            "Transparent project status",
+            "Async-friendly workflows"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Cloud-Native Operations",
+          "description": "We design deployment and infrastructure workflows around modern cloud platforms, automation and production observability.",
+          "details": [
+            "Automated deployments",
+            "Production monitoring",
+            "Scalable infrastructure"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Complex systems deserve direct technical attention",
+      "title": "Have a complex engineering challenge?",
+      "description": "Speak directly with Pingital's engineering team. We review your requirements, constraints and technical risks before recommending an architecture or delivery path.",
+      "primaryCta": "Start a technical conversation",
+      "secondaryCta": "Explore our services",
+      "signals": [
+        "Direct access to engineering",
+        "Architecture before implementation",
+        "No unnecessary sales layers"
+      ]
+    }
   }
 }
