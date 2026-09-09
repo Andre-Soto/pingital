@@ -48,16 +48,7 @@ export default function Hero({
           </div>
         </div>
 
-        <div className="mx-auto mt-10 max-w-[1000px]">
-          <Image
-            src="/images/home/dashboard-horizontal.svg"
-            alt="Pingital software dashboard"
-            width={800}
-            height={600}
-            priority
-            className="mx-auto h-auto w-full max-w-[850px]"
-          />
-        </div>
+
       </div>
     </section>
   );

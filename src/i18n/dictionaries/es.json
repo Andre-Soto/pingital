@@ -7,206 +7,216 @@
     "contact": "Contacto"
   },
   "footer": {
-    "description": "Software personalizado, productos digitales y tecnología diseñada alrededor de la forma en que realmente funciona tu negocio.",
+    "description": "Software a la medida, productos digitales y tecnología diseñados alrededor de la forma en que realmente opera tu negocio",
     "company": "Empresa",
     "about": "Nosotros",
     "services": "Servicios",
-    "insights": "Artículos",
-    "capabilities": "Servicios",
+    "insights": "Perspectivas",
+    "capabilities": "Capacidades",
     "webApplications": "Aplicaciones Web",
     "mobileApplications": "Aplicaciones Móviles",
     "cloudArchitecture": "Arquitectura Cloud",
     "integrations": "Integraciones",
     "contact": "Contacto",
-    "startProject": "Iniciar un proyecto",
+    "startProject": "Iniciar un Proyecto",
     "rights": "Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio"
   },
   "thankYou": {
-    "eyebrow": "Proyecto recibido",
+    "eyebrow": "Proyecto Recibido",
     "title": "Gracias.",
-    "description": "Recibimos correctamente la información de tu proyecto. Nuestro equipo la revisará y se pondrá en contacto contigo muy pronto.",
-    "button": "Volver al inicio"
+    "description": "La información de tu proyecto fue recibida correctamente. Nuestro equipo revisará los detalles y se pondrá en contacto contigo próximamente.",
+    "button": "Volver al Inicio"
   },
   "home": {
-    "title": "Software adaptado a tu negocio",
-    "description": "Diseñamos y desarrollamos aplicaciones web personalizadas y resilientes, arquitecturas en la nube complejas y sistemas digitales de misión crítica para líderes consolidados del mercado e innovadores tecnológicos con financiación.",
+    "title": "Software diseñado alrededor de tu negocio",
+    "description": "Diseñamos y desarrollamos aplicaciones web a la medida, arquitecturas cloud complejas y sistemas digitales críticos para líderes de mercado consolidados e innovadores tecnológicos respaldados por inversión.",
     "hero": {
-      "badge": "Ingeniería de software para negocios modernos",
-      "primaryCta": "Iniciar un proyecto",
-      "secondaryCta": "Ver proyectos"
+      "badge": "Ingeniería de software para empresas modernas",
+      "primaryCta": "Iniciar un Proyecto",
+      "secondaryCta": "Explorar Proyectos Seleccionados"
     },
     "stats": [
       {
-        "value": "$2.4B+",
-        "label": "Valor generado"
+        "value": "3 Meses",
+        "label": "Tiempo promedio de lanzamiento"
       },
       {
-        "value": "99.999%",
-        "label": "Confiabilidad del sistema"
-      },
-      {
-        "value": "48",
-        "label": "Productos lanzados"
+        "value": "4+",
+        "label": "Industrias transformadas"
       },
       {
         "value": "100%",
-        "label": "Soluciones a la medida"
+        "label": "Sistemas desarrollados a la medida"
+      },
+      {
+        "value": "Multi-sitio",
+        "label": "Arquitectura escalable"
       }
     ],
     "positioning": {
       "eyebrow": "Nuestro enfoque",
-      "title": "No construimos sitios web genéricos. Diseñamos sistemas de software de alto rendimiento que brindan a las empresas una verdadera ventaja competitiva.",
-      "paragraph1": "Cada proyecto comienza entendiendo cómo funciona realmente tu negocio. Diseñamos alrededor de tus procesos, tus clientes y tus objetivos de crecimiento, en lugar de obligar a tu operación a adaptarse a software genérico.",
-      "paragraph2": "Desde plataformas personalizadas y sistemas internos hasta integraciones, automatización e infraestructura cloud, cada decisión se toma pensando en rendimiento, escalabilidad y mantenimiento a largo plazo."
+      "title": "No comenzamos con código. Comenzamos entendiendo el negocio.",
+      "paragraph1": "Diseñamos y desarrollamos soluciones de software a la medida, plataformas web de alto rendimiento y sistemas digitales escalables para empresas que necesitan tecnología adaptada a la forma en que realmente operan. En lugar de depender de sitios web genéricos o software prediseñado, analizamos tus procesos, clientes y objetivos de crecimiento para crear plataformas que mejoren la eficiencia, faciliten mejores decisiones y generen valor de negocio medible.",
+      "paragraph2": "Desde aplicaciones web a la medida y sistemas internos de negocio hasta integraciones mediante API, automatización de procesos e infraestructura cloud, cada solución se desarrolla considerando rendimiento, escalabilidad y mantenibilidad a largo plazo. Nuestro objetivo es construir software confiable que se integre con tu tecnología actual, evolucione junto con tu negocio y proporcione a tu organización una ventaja competitiva sostenible."
     },
     "services": {
-      "eyebrow": "Nuestro alcance",
-      "title": "Ingeniería para grandes retos",
-      "description": "Desarrollo integral a través de las diferentes capas de una aplicación moderna, desde la arquitectura hasta experiencias digitales rápidas e intuitivas.",
-      "cta": "Ver especificaciones",
+      "eyebrow": "Espectro de Capacidades",
+      "title": "Tecnología para problemas reales de negocio.",
+      "description": "Desde sistemas internos y plataformas a la medida hasta automatización, integraciones y productos digitales, desarrollamos soluciones para empresas que han superado las capacidades de las herramientas genéricas o necesitan tecnología diseñada específicamente alrededor de su operación.",
+      "cta": "Ver Especificaciones de Servicios",
       "items": [
         {
           "icon": "web",
           "title": "Aplicaciones Web",
-          "description": "Dashboards, plataformas empresariales y sistemas operativos personalizados alrededor de procesos de negocio complejos.",
+          "description": "Aplicaciones web, dashboards, plataformas internas y sistemas operativos desarrollados alrededor de procesos reales de negocio.",
           "features": [
-            "Experiencias rápidas y responsivas",
+            "Interfaces rápidas y responsivas",
             "Dashboards y visualización de datos",
-            "Control de acceso basado en roles"
+            "Sistemas multiusuario",
+            "Flujos de trabajo y permisos personalizados"
           ]
         },
         {
           "icon": "mobile",
           "title": "Aplicaciones Móviles",
-          "description": "Experiencias móviles de alto rendimiento diseñadas para ofrecer interacciones intuitivas, confiabilidad y escalabilidad.",
+          "description": "Aplicaciones móviles diseñadas alrededor de necesidades específicas de operación, servicio, comunicación y experiencia de usuario.",
           "features": [
             "Desarrollo nativo y multiplataforma",
-            "Integraciones con hardware y dispositivos",
-            "Autenticación y almacenamiento seguro"
+            "Integraciones con dispositivos",
+            "Experiencias conectadas y offline",
+            "Autenticación y almacenamiento seguros"
           ]
         },
         {
           "icon": "cloud",
-          "title": "Cloud y Arquitectura de Sistemas",
-          "description": "Infraestructura cloud confiable, despliegues escalables y arquitecturas diseñadas para aplicaciones de alta exigencia.",
+          "title": "Arquitectura Cloud y de Sistemas",
+          "description": "Diseñamos entornos cloud seguros y escalables basados en los requerimientos reales de cada aplicación.",
           "features": [
-            "Infraestructura como código",
-            "Entornos cloud escalables",
-            "Arquitectura de despliegue segura"
+            "Arquitectura cloud escalable",
+            "Despliegues automatizados",
+            "Infraestructura segura",
+            "Monitoreo y confiabilidad"
           ]
         },
         {
           "icon": "database",
-          "title": "Bases de Datos y Backend",
-          "description": "APIs, bases de datos y sistemas backend de alto rendimiento para procesar y sincronizar información crítica del negocio.",
+          "title": "Bases de Datos Distribuidas y Backends",
+          "description": "Desarrollamos APIs, bases de datos y sistemas backend que administran, procesan y sincronizan información crítica del negocio.",
           "features": [
-            "Arquitecturas orientadas a eventos",
-            "PostgreSQL y datos distribuidos",
-            "Caché y optimización de rendimiento"
+            "APIs y servicios personalizados",
+            "Bases de datos relacionales",
+            "Integración y sincronización de datos",
+            "Optimización de rendimiento"
           ]
         },
         {
           "icon": "integration",
-          "title": "Modernización e Integraciones",
-          "description": "Modernizamos sistemas legacy y conectamos las plataformas de las que ya depende tu operación sin interrumpir el negocio.",
+          "title": "Haz que tu tecnología actual funcione mejor",
+          "description": "Conectamos las herramientas que ya utilizas y modernizamos sistemas existentes manteniendo siempre la continuidad del negocio.",
           "features": [
+            "Integraciones mediante API",
+            "Conectividad entre plataformas",
             "Modernización de sistemas legacy",
-            "Integraciones con APIs de terceros",
-            "Migraciones progresivas sin interrupciones",
-            "Monitoreo y recuperación automatizada"
+            "Migraciones incrementales"
           ],
           "wide": true
         }
       ]
     },
     "caseStudies": {
-      "eyebrow": "Proyectos destacados",
-      "title": "Casos de éxito construidos con precisión",
-      "cta": "Explorar todos los proyectos",
+      "eyebrow": "Tecnología desarrollada para resolver problemas reales.",
+      "title": "Nuestra experiencia no se limita a una sola industria.",
+      "cta": "Explorar Todos los Casos de Estudio",
       "items": [
         {
-          "category": "FINTECH",
-          "title": "Apex Capital",
-          "description": "Una plataforma financiera de alto rendimiento diseñada para centralizar información de portafolios, datos operativos y métricas críticas del negocio.",
+          "category": "EDUCACIÓN / ORGANIZACIÓN SIN FINES DE LUCRO",
+          "title": "Una plataforma educativa desarrollada durante una pandemia",
+          "description": "En 2020 desarrollamos una plataforma que permitió a un programa educativo de inglés sin fines de lucro continuar operando mientras la educación presencial se encontraba interrumpida.",
           "stat1": {
-            "value": "14ms",
-            "label": "Respuesta de API"
+            "value": "3 Meses",
+            "label": "Del análisis a la implementación"
           },
           "stat2": {
-            "value": "99.99%",
-            "label": "Disponibilidad"
-          }
+            "value": "3 comunidades",
+            "label": "Apoyando al programa en diferentes ubicaciones"
+          },
+          "image": "/images/home/peace.jpg",
+          "imageAlt": "Peace Punta de Mita"
         },
         {
-          "category": "HEALTHTECH",
-          "title": "Aura Health",
-          "description": "Una plataforma unificada para operaciones de salud que conecta equipos, procesos e información de pacientes mediante una experiencia digital segura.",
+          "category": "ADMINISTRACIÓN DE PROPIEDADES DE LUJO",
+          "title": "Conectando la operación detrás de propiedades de alto nivel",
+          "description": "Desarrollo e integración de herramientas digitales que respaldan una operación de renta de propiedades de lujo, incluyendo mantenimiento, servicios de concierge, compras, control de calidad, satisfacción del cliente y marketing.",
           "stat1": {
-            "value": "38%",
-            "label": "Operaciones más rápidas"
+            "value": "6+ Plataformas",
+            "label": "Integraciones"
           },
           "stat2": {
             "value": "24/7",
-            "label": "Disponibilidad"
-          }
+            "label": "Control"
+          },
+          "image": "/images/home/mr.jpg",
+          "imageAlt": "Sistema de administración de propiedades"
         },
         {
-          "category": "PROPTECH",
-          "title": "Vanguard Realty",
-          "description": "Una plataforma inmobiliaria en tiempo real que integra inventario, analítica y herramientas operativas en un solo entorno.",
+          "category": "TURISMO Y AVENTURA",
+          "title": "Un sistema diseñado alrededor de la operación",
+          "description": "Una plataforma personalizada de POS y operaciones desarrollada para un negocio de surf, aventura y renta de equipo. El sistema fue diseñado alrededor de sus procesos y construido para coordinar operaciones entre tres ubicaciones.",
           "stat1": {
-            "value": "42%",
-            "label": "Menos trabajo manual"
+            "value": "3",
+            "label": "Ubicaciones"
           },
           "stat2": {
-            "value": "5",
-            "label": "Sistemas integrados"
-          }
+            "value": "10+",
+            "label": "Flujos personalizados"
+          },
+          "image": "/images/home/wildmex.jpg",
+          "imageAlt": "Wildmex - POS"
         }
       ]
     },
     "methodology": {
-      "eyebrow": "Nuestro proceso",
-      "title": "Metodología en 6 etapas",
+      "eyebrow": "Metodología de 6 Etapas",
+      "title": "Desde entender el problema hasta llevar la solución a producción",
       "items": [
         {
           "number": "01",
-          "title": "Descubrimiento y alcance técnico",
-          "description": "Definimos objetivos de negocio, restricciones técnicas, requerimientos del sistema y resultados medibles antes de escribir código."
+          "title": "Descubrimiento y Definición",
+          "description": "Entendemos el negocio, los usuarios, los procesos actuales y el problema que necesitamos resolver."
         },
         {
           "number": "02",
-          "title": "Arquitectura y diseño",
-          "description": "Diseñamos la estructura del producto, los flujos de datos, la infraestructura y la experiencia de usuario alrededor de la operación real."
+          "title": "Arquitectura y Diseño",
+          "description": "Definimos la estructura de la solución, los flujos de trabajo, la experiencia y las decisiones técnicas necesarias."
         },
         {
           "number": "03",
-          "title": "Interfaz y construcción del sistema",
-          "description": "Construimos interfaces, componentes y bases del sistema pensando en escalabilidad y mantenimiento a largo plazo."
+          "title": "Desarrollo",
+          "description": "Construimos la solución por etapas, manteniendo el progreso visible y validando continuamente lo que se está desarrollando."
         },
         {
           "number": "04",
-          "title": "Ingeniería de precisión y QA",
-          "description": "El desarrollo, las pruebas y la validación técnica ocurren de forma continua para reducir riesgos antes de producción."
+          "title": "Pruebas y Validación",
+          "description": "Validamos funcionalidad, seguridad, integraciones y comportamiento del sistema antes de producción."
         },
         {
           "number": "05",
-          "title": "QA automatizado y pre-pruebas",
-          "description": "Validamos los flujos críticos entre dispositivos, integraciones y entornos antes del despliegue."
+          "title": "Implementación",
+          "description": "Preparamos el entorno, desplegamos la solución y acompañamos la transición hacia la operación real."
         },
         {
           "number": "06",
-          "title": "Entrega continua y escalabilidad",
-          "description": "Desplegamos, monitoreamos y evolucionamos el producto conforme crece tu operación y aparecen nuevas necesidades."
+          "title": "Evolución",
+          "description": "Monitoreamos, damos soporte y mejoramos la solución conforme evoluciona el negocio."
         }
       ]
     },
     "modernStack": {
       "eyebrow": "Tecnología",
-      "title": "Tecnología moderna para productos escalables",
-      "description": "Herramientas modernas, arquitecturas probadas e infraestructura escalable seleccionadas según las necesidades de cada producto.",
+      "title": "La tecnología debe estar al servicio de la solución.",
+      "description": "Utilizamos herramientas y arquitecturas modernas seleccionadas de acuerdo con los requerimientos reales de cada proyecto.",
       "groups": [
         {
           "title": "Frontend",
@@ -221,34 +231,34 @@
           "items": ["PostgreSQL", "Supabase", "Redis", "Prisma"]
         },
         {
-          "title": "Cloud & DevOps",
+          "title": "Cloud y DevOps",
           "items": ["Vercel", "AWS", "Railway", "Docker"]
         }
       ]
     },
     "contactCta": {
-      "badge": "Trabaja directamente con nuestro equipo",
-      "title": "¿Tienes un proyecto crítico en mente?",
-      "description": "Revisamos cada solicitud en menos de 24 horas. Hablarás directamente con nuestro equipo técnico para evaluar viabilidad, tiempos y recursos necesarios.",
-      "securityTitle": "Seguridad y confidencialidad",
-      "securityDescription": "Cada proyecto se maneja bajo estricta confidencialidad. No subcontratamos el desarrollo con terceros.",
+      "badge": "Colaboración Directa",
+      "title": "¿Tienes un problema de negocio que la tecnología podría resolver?",
+      "description": "No necesitas llegar con una especificación técnica completa. Cuéntanos qué está sucediendo, qué te gustaría mejorar y qué estás intentando construir. A partir de ahí, podemos evaluar el problema y definir el siguiente paso adecuado.",
+      "securityTitle": "Garantía de Seguridad y Confidencialidad",
+      "securityDescription": "Cada propuesta de proyecto se maneja bajo estricta confidencialidad. No subcontratamos el desarrollo a terceros.",
       "fields": {
-        "name": "Nombre completo",
+        "name": "Nombre Completo",
         "namePlaceholder": "Alexander Vance",
-        "email": "Correo de trabajo",
-        "emailPlaceholder": "av@empresa.com",
-        "company": "Empresa / Organización",
-        "companyPlaceholder": "Nombre de la empresa",
-        "category": "Tipo de proyecto",
+        "email": "Correo de Trabajo",
+        "emailPlaceholder": "av@company.com",
+        "company": "Empresa / Entidad",
+        "companyPlaceholder": "Nombre de la Empresa",
+        "category": "Categoría del Proyecto",
         "categoryPlaceholder": "Selecciona una categoría",
-        "budget": "Presupuesto estimado",
-        "message": "Especificaciones y objetivos",
-        "messagePlaceholder": "Describe los principales retos del negocio, usuarios esperados, necesidades del sistema y fecha objetivo de entrega..."
+        "budget": "Presupuesto Estimado",
+        "message": "Especificaciones y Objetivos del Sistema",
+        "messagePlaceholder": "Describe los principales obstáculos del negocio, usuarios o volumen esperado y la fecha objetivo estratégica de entrega..."
       },
       "categories": [
         {
           "value": "web-app",
-          "label": "Aplicación Web Personalizada"
+          "label": "Aplicación Web a la Medida"
         },
         {
           "value": "mobile-app",
@@ -272,190 +282,190 @@
         "$100k – $250k",
         "$250k – $500k+"
       ],
-      "submit": "Enviar información del proyecto",
+      "submit": "Enviar Información del Proyecto",
       "sending": "Enviando...",
-      "error": "Ocurrió un problema. Inténtalo nuevamente."
+      "error": "Ocurrió un error. Inténtalo nuevamente."
     }
   },
   "contact": {
     "hero": {
-      "eyebrow": "Contacto directo con nuestro equipo",
+      "eyebrow": "Colaboración Directa",
       "title": "Construyamos software que impulse tu negocio.",
-      "description": "Cuéntanos qué estás construyendo, qué retos estás enfrentando y hacia dónde quieres llevar tu negocio.",
+      "description": "Cuéntanos qué estás construyendo, los desafíos que enfrentas y hacia dónde quieres llevar tu negocio.",
       "nda": "NDA mutuo disponible",
       "response": "Respuesta promedio: 24 horas",
       "contact": "Contacto técnico directo"
     },
     "engagement": {
       "protocols": {
-        "title": "Protocolos de trabajo",
+        "title": "Protocolos de Colaboración",
         "revision": "REV 4.2",
-        "description": "Diseñado para organizaciones que requieren claridad absoluta, contacto técnico directo y propiedad total de su tecnología.",
+        "description": "Diseñado para organizaciones con tolerancia cero a la ambigüedad, personal subcontratado o transferencias de propiedad intelectual poco claras.",
         "items": [
           {
             "number": "01",
-            "label": "ACCESO TÉCNICO DIRECTO",
-            "title": "Participación directa del arquitecto",
-            "description": "Cada sesión de alcance es realizada directamente por nuestro equipo técnico. Sin intermediarios comerciales ni ejecutivos de cuenta."
+            "label": "ACCESO DIRECTO AL RESPONSABLE",
+            "title": "Participación del Arquitecto Principal",
+            "description": "Cada sesión de definición de alcance es realizada personalmente por nuestro equipo técnico. Sin representantes de ventas ni ejecutivos de cuenta."
           },
           {
             "number": "02",
-            "label": "CONFIDENCIALIDAD",
-            "title": "Ejecución de NDA mutuo",
-            "description": "La información sensible del producto, infraestructura y operación puede manejarse bajo NDA antes de cualquier conversación técnica."
+            "label": "INTEGRIDAD CONFIDENCIAL",
+            "title": "Ejecución de NDA Mutuo",
+            "description": "La información sensible del producto y de infraestructura puede manejarse bajo un NDA mutuo antes de las conversaciones técnicas."
           },
           {
             "number": "03",
-            "label": "ANÁLISIS SISTEMÁTICO",
-            "title": "Evaluación de viabilidad en 5 días",
-            "description": "Dentro de las primeras 120 horas del proceso podemos definir arquitectura, dependencias, riesgos y principales etapas del proyecto."
+            "label": "ESPECIFICACIÓN SISTEMÁTICA",
+            "title": "Análisis de Viabilidad en 5 Días",
+            "description": "Dentro de las 120 horas posteriores al descubrimiento, recibe un plano arquitectónico concreto, matriz completa de dependencias, modelo de riesgos e hitos."
           },
           {
             "number": "04",
-            "label": "PROPIEDAD INTELECTUAL",
-            "title": "100% de propiedad sobre tu software",
-            "description": "Sin dependencia propietaria. El código fuente, configuraciones, infraestructura y activos técnicos pertenecen completamente a tu organización."
+            "label": "TRANSFERENCIA TOTAL DE PROPIEDAD INTELECTUAL",
+            "title": "100% de Propiedad Intelectual sin Restricciones",
+            "description": "Sin dependencia de tecnología propietaria. Todo el código fuente, configuración, infraestructura y activos técnicos se transfieren directamente a tu organización."
           }
         ]
       },
       "security": {
-        "title": "Canal seguro PGP",
-        "description": "Para conversaciones sobre arquitectura sensible, sistemas propietarios o infraestructura confidencial, disponemos de comunicación cifrada.",
-        "fingerprint": "Huella digital",
-        "directEmail": "Correo directo"
+        "title": "Canal de Seguridad PGP",
+        "description": "Para conversaciones sobre arquitectura sensible, sistemas propietarios o infraestructura confidencial, contamos con comunicación cifrada.",
+        "fingerprint": "Huella Digital",
+        "directEmail": "Correo Directo"
       },
       "nodes": {
-        "title": "Nodos globales de ingeniería",
-        "status": "Clústeres activos"
+        "title": "Nodos Globales de Ingeniería",
+        "status": "Clústeres Activos"
       },
       "form": {
-        "eyebrow": "Canal de contacto técnico",
-        "title": "Iniciar evaluación técnica",
-        "description": "La información es revisada directamente por nuestro equipo de ingeniería bajo confidencialidad y con respuesta en menos de 24 horas.",
-        "stakeholder": "01 / Información del contacto",
-        "name": "Nombre completo",
-        "namePlaceholder": "Ej. Arthur Vance",
-        "email": "Correo de trabajo",
+        "eyebrow": "Canal de Transmisión",
+        "title": "Iniciar Brief de Alcance Técnico",
+        "description": "Los campos son evaluados exclusivamente por nuestros responsables de ingeniería. Revisión estructurada y protegida por NDA dentro de 24 horas.",
+        "stakeholder": "01 / Información del Responsable",
+        "name": "Nombre Completo",
+        "namePlaceholder": "ej. Dr. Arthur Vance",
+        "email": "Correo Electrónico de Trabajo",
         "emailPlaceholder": "nombre@empresa.com",
-        "company": "Empresa / Organización",
-        "companyPlaceholder": "Ej. HyperScale Technologies",
-        "role": "Cargo ejecutivo / técnico",
-        "rolePlaceholder": "Ej. CTO / VP de Infraestructura",
-        "scope": "02 / Alcance del sistema",
+        "company": "Nombre de la Empresa / Entidad",
+        "companyPlaceholder": "ej. HyperScale Technologies",
+        "role": "Rol Ejecutivo / Puesto Técnico",
+        "rolePlaceholder": "ej. VP de Infraestructura / CTO",
+        "scope": "02 / Alcance Principal del Sistema",
         "scopes": [
           "Aplicaciones Web y SaaS",
-          "Aplicaciones móviles de alto rendimiento",
-          "Backend y sistemas distribuidos",
-          "Cloud y confiabilidad",
-          "Migración y escalamiento de bases de datos",
-          "Modernización empresarial"
+          "Aplicaciones Móviles de Alto Rendimiento",
+          "Backends Distribuidos y Motores",
+          "Cloud y Confiabilidad de Sitios",
+          "Migración y Escalamiento de Bases de Datos",
+          "Modernización Empresarial"
         ],
-        "horizon": "03 / Horizonte de producción",
+        "horizon": "03 / Horizonte Objetivo de Producción",
         "horizons": [
           {
             "value": "immediate",
             "title": "Inmediato",
-            "subtitle": "Lanzamiento en 2–4 semanas"
+            "subtitle": "Lanzamiento en 2–4 Semanas"
           },
           {
             "value": "quarter",
-            "title": "Próximo trimestre",
-            "subtitle": "1–3 meses"
+            "title": "Horizonte Q1/Q2",
+            "subtitle": "1–3 Meses"
           },
           {
             "value": "strategic",
             "title": "Estratégico",
-            "subtitle": "3–6 meses"
+            "subtitle": "3–6 Meses"
           }
         ],
-        "budget": "04 / Inversión estimada",
+        "budget": "04 / Inversión Proyectada",
         "budgets": [
           "$75k – $150k",
           "$150k – $300k",
           "$300k – $500k",
           "$500k+"
         ],
-        "specifications": "05 / Especificaciones y restricciones",
-        "specificationsPlaceholder": "Describe la arquitectura deseada, stack actual, principales limitaciones, rendimiento esperado y fecha objetivo...",
-        "artefacts": "06 / Archivos técnicos (Opcional)",
+        "specifications": "05 / Especificaciones del Sistema y Restricciones Principales",
+        "specificationsPlaceholder": "Describe brevemente la arquitectura objetivo, restricciones del stack actual, cuellos de botella de rendimiento, volumen esperado y fecha estratégica objetivo de entrega...",
+        "artefacts": "06 / Artefactos Técnicos (Opcional)",
         "artefactsTitle": "Adjunta PDF, RFP o diagrama de arquitectura",
         "artefactsDescription": "PDF, PNG, SVG o ZIP de hasta 50MB",
-        "nda": "La información enviada se mantiene bajo estricta confidencialidad y nunca se comparte con terceros no autorizados.",
-        "submit": "Enviar información y solicitar sesión técnica",
+        "nda": "Ejecutar automáticamente un NDA Mutuo estándar antes de la consulta. Todo el material enviado permanece confidencial y nunca se comparte con terceros no autorizados.",
+        "submit": "Enviar Brief de Alcance y Programar Sesión con Arquitecto",
         "sending": "Enviando...",
-        "error": "Ocurrió un problema. Inténtalo nuevamente."
+        "error": "Ocurrió un error. Inténtalo nuevamente."
       }
     },
     "faq": {
-      "eyebrow": "Evaluación técnica",
-      "title": "Preguntas frecuentes sobre nuestro proceso",
-      "description": "Todo lo que necesitas saber sobre cómo Pingital define, desarrolla y entrega sistemas de software de alta confiabilidad.",
+      "eyebrow": "Due Diligence Técnico",
+      "title": "Preguntas Frecuentes sobre el Proceso de Colaboración",
+      "description": "Todo lo que necesitas saber sobre cómo Pingital define, contrata y entrega sistemas de software de alta confiabilidad.",
       "items": [
         {
           "number": "01",
-          "title": "¿Qué sucede después de enviar la información del proyecto?",
-          "description": "En menos de 24 horas, nuestro equipo técnico revisa tus necesidades y programa una sesión de descubrimiento. Analizamos flujos de datos, requerimientos de rendimiento, limitaciones actuales y prioridades de arquitectura."
+          "title": "¿Qué sucede después de enviar un brief?",
+          "description": "Dentro de 24 horas, nuestro equipo técnico revisa tus restricciones y programa una sesión de descubrimiento enfocada. Analizamos flujos de datos, requerimientos de rendimiento, cuellos de botella actuales, necesidades de gobernanza y prioridades arquitectónicas."
         },
         {
           "number": "02",
-          "title": "¿Cómo estructura Pingital los costos de un proyecto?",
-          "description": "Trabajamos principalmente con entregas definidas por etapas o equipos técnicos dedicados. El alcance, los entregables y los niveles de servicio quedan claramente establecidos antes de comenzar."
+          "title": "¿Cómo estructura Pingital los precios de sus proyectos?",
+          "description": "Trabajamos principalmente mediante entregas de precio fijo basadas en hitos o equipos técnicos dedicados. El alcance, los entregables y los niveles de servicio quedan claramente definidos antes de iniciar el desarrollo."
         },
         {
           "number": "03",
-          "title": "¿Pueden trabajar bajo requisitos estrictos de seguridad o cumplimiento?",
-          "description": "Sí. Podemos diseñar sistemas alrededor de requisitos estrictos de seguridad, privacidad y cumplimiento, incluyendo controles de acceso, auditoría, cifrado y aislamiento de infraestructura."
+          "title": "¿Pueden trabajar bajo requisitos estrictos de cumplimiento?",
+          "description": "Sí. Podemos diseñar sistemas alrededor de estrictos requerimientos de seguridad, privacidad y cumplimiento, incluyendo accesos controlados, registros de auditoría, cifrado y aislamiento de infraestructura."
         },
         {
           "number": "04",
-          "title": "¿Pingital conserva propiedad sobre nuestro software?",
-          "description": "No. Tu organización conserva la propiedad del software, código fuente y propiedad intelectual específica del proyecto entregado."
+          "title": "¿Toman participación accionaria o conservan la propiedad de nuestro software?",
+          "description": "No. Tu organización conserva la propiedad del software, código fuente y propiedad intelectual específica del proyecto entregada como parte de la colaboración."
         }
       ]
     }
   },
   "servicesPage": {
     "hero": {
-      "eyebrow": "Ingeniería de software de alta confiabilidad",
-      "title": "Software a la medida diseñado para operaciones donde fallar no es una opción.",
-      "description": "Diseñamos, arquitectamos y desarrollamos sistemas de software críticos para organizaciones donde el rendimiento, la disponibilidad y la integridad de los datos son fundamentales. Cada solución se construye alrededor de las necesidades reales de tu operación, con arquitectura escalable y confiabilidad de nivel producción.",
-      "primaryCta": "Explorar servicios",
-      "secondaryCta": "Nuestro proceso",
+      "eyebrow": "Ingeniería de Software de Alta Confiabilidad",
+      "title": "Ingeniería de software a la medida para operaciones donde fallar no es una opción.",
+      "description": "Diseñamos, arquitectamos e implementamos sistemas de software críticos para organizaciones donde el rendimiento, la disponibilidad y la integridad de los datos no pueden comprometerse. Cada solución se construye alrededor de tus requerimientos operativos, con arquitectura escalable y confiabilidad de nivel producción.",
+      "primaryCta": "Explorar Disciplinas",
+      "secondaryCta": "Protocolo de Colaboración",
       "specification": {
         "brand": "Pingital",
-        "label": "Auditoría técnica",
-        "disciplinesLabel": "Disciplinas principales",
+        "label": "Auditoría de Especificaciones",
+        "disciplinesLabel": "Disciplinas Principales",
         "disciplinesValue": "06",
-        "ownershipLabel": "Propiedad intelectual",
-        "ownershipValue": "100% TUYA",
-        "coverageLabel": "Cobertura automatizada",
+        "ownershipLabel": "Propiedad Intelectual",
+        "ownershipValue": "100% SIN RESTRICCIONES",
+        "coverageLabel": "Cobertura Automatizada",
         "coverageValue": ">90% ESTRICTA",
-        "downtimeLabel": "Objetivo de interrupción",
+        "downtimeLabel": "Objetivo de Inactividad",
         "downtimeValue": "0.00%",
-        "reviewTitle": "Revisión de arquitectura",
-        "reviewDescription": "Cada proyecto comienza con una evaluación técnica antes de iniciar la implementación."
+        "reviewTitle": "Revisión de Arquitectura",
+        "reviewDescription": "Cada proyecto comienza con una evaluación técnica antes de la implementación."
       },
       "capabilities": [
-        "Propiedad del código",
-        "Transferencia total de propiedad intelectual",
-        "Cobertura de pruebas automatizadas",
-        "Arquitectura para despliegues sin interrupciones"
+        "Propiedad del Código",
+        "Transferencia de IP 100% sin Restricciones",
+        "Cobertura de Pruebas Automatizadas",
+        "Gobernanza con Cero Tiempo de Inactividad"
       ]
     },
     "disciplines": {
-      "eyebrow": "Capacidades de ingeniería",
-      "title": "Arquitectura y desarrollo a través de todo el stack tecnológico.",
-      "description": "No trabajamos como desarrolladores generalistas. Cada área se aborda como una disciplina técnica con requisitos específicos de arquitectura, rendimiento, seguridad y confiabilidad.",
-      "problemsLabel": "Problemas de negocio que resolvemos",
-      "stackLabel": "Stack tecnológico",
+      "eyebrow": "Capacidades de Ingeniería",
+      "title": "Profundidad arquitectónica en todo el stack tecnológico.",
+      "description": "No operamos como desarrolladores generalistas. Cada dominio de ingeniería se trata como una disciplina técnica con requerimientos específicos de arquitectura, rendimiento y confiabilidad.",
+      "problemsLabel": "Problemas de Negocio que Resolvemos",
+      "stackLabel": "Stack Tecnológico Verificado",
       "items": [
         {
           "eyebrow": "APLICACIONES WEB",
           "title": "Aplicaciones Web y SaaS Empresarial",
-          "description": "Aplicaciones cloud, dashboards operativos y plataformas multiusuario diseñadas para procesos empresariales rápidos, confiables y escalables.",
+          "description": "Aplicaciones cloud de alto rendimiento, dashboards operativos complejos y portales multi-tenant diseñados para operaciones empresariales ágiles y confiables.",
           "problems": [
             "Plataformas SaaS empresariales",
-            "Herramientas para procesos internos",
+            "Herramientas internas de flujo de trabajo",
             "Dashboards financieros y operativos",
             "Sistemas colaborativos en tiempo real"
           ],
@@ -464,10 +474,10 @@
         {
           "eyebrow": "APLICACIONES MÓVILES",
           "title": "Aplicaciones Móviles de Alto Rendimiento",
-          "description": "Experiencias móviles nativas y multiplataforma diseñadas para interacciones fluidas, operación offline, sincronización en segundo plano y uso seguro de capacidades del dispositivo.",
+          "description": "Experiencias móviles nativas y multiplataforma diseñadas para interacciones fluidas, procesos offline-first, sincronización en segundo plano y capacidades seguras del dispositivo.",
           "problems": [
             "Aplicaciones móviles nativas",
-            "Sistemas en tiempo real",
+            "Sistemas cliente en tiempo real",
             "Autenticación biométrica",
             "Experiencias offline y de baja latencia"
           ],
@@ -475,48 +485,48 @@
         },
         {
           "eyebrow": "SISTEMAS BACKEND",
-          "title": "Backend Distribuido y Sistemas en Tiempo Real",
-          "description": "Servicios orientados a eventos, procesamiento distribuido, mensajería de alta concurrencia y flujos de datos transaccionales para operaciones exigentes.",
+          "title": "Sistemas Backend Distribuidos y Motores en Tiempo Real",
+          "description": "Servicios confiables orientados a eventos, orquestación distribuida de tareas, mensajería de alta concurrencia y pipelines transaccionales de datos diseñados para operaciones exigentes.",
           "problems": [
-            "Procesamiento de grandes volúmenes de transacciones",
-            "Sistemas de pago confiables",
+            "Procesamiento de transacciones de alto volumen",
+            "Sistemas de pago resilientes",
             "Arquitecturas orientadas a eventos",
-            "Procesamiento de datos a gran escala"
+            "Ingesta de datos a gran escala"
           ],
           "stack": ["NestJS", "Node.js", "Kafka", "Redis", "PostgreSQL"]
         },
         {
           "eyebrow": "INFRAESTRUCTURA CLOUD",
-          "title": "Cloud, Kubernetes y Confiabilidad de Sistemas",
-          "description": "Infraestructura como código, despliegues escalables, orquestación de contenedores y arquitectura cloud segura para sistemas críticos en producción.",
+          "title": "Infraestructura Cloud, Kubernetes y Confiabilidad de Sitios",
+          "description": "Infraestructura como código resiliente, despliegues escalables, orquestación de contenedores y arquitectura cloud segura diseñada para sistemas críticos en producción.",
           "problems": [
             "Arquitectura cloud multi-región",
             "Orquestación de contenedores",
             "Recuperación ante desastres",
-            "Monitoreo y observabilidad"
+            "Observabilidad y monitoreo"
           ],
           "stack": ["AWS", "Docker", "Kubernetes", "Terraform", "Cloudflare"]
         },
         {
           "eyebrow": "INGENIERÍA DE DATOS",
           "title": "Arquitectura de Bases de Datos y Persistencia a Gran Escala",
-          "description": "Optimización relacional, persistencia distribuida, procesamiento de grandes volúmenes de información y caché de alto rendimiento.",
+          "description": "Optimización relacional, persistencia distribuida, cargas de trabajo de series de tiempo y caché de alto rendimiento diseñados para conjuntos de datos grandes y en constante crecimiento.",
           "problems": [
-            "Escalamiento de PostgreSQL",
+            "Escalamiento de clústeres PostgreSQL",
             "Particionamiento y sharding horizontal",
             "Capas de caché de alto rendimiento",
-            "Búsqueda, indexación y analítica"
+            "Indexación de búsqueda y analítica"
           ],
           "stack": ["PostgreSQL", "Redis", "Supabase", "MySQL", "OpenSearch"]
         },
         {
           "eyebrow": "MODERNIZACIÓN DE SISTEMAS",
           "title": "Modernización Empresarial e Integración de Sistemas",
-          "description": "Modernizamos plataformas legacy hacia servicios modernos sin comprometer la estabilidad de producción, los procesos existentes ni la continuidad del negocio.",
+          "description": "Modernización de plataformas legacy hacia servicios componibles, preservando la estabilidad de producción, los procesos existentes y la continuidad del negocio.",
           "problems": [
             "Modernización de plataformas legacy",
-            "Integraciones con ERP y CRM",
-            "APIs personalizadas y seguras",
+            "Integraciones ERP y CRM",
+            "Capas de API personalizadas y seguras",
             "Sincronización de sistemas en tiempo real"
           ],
           "stack": ["REST APIs", "GraphQL", "HubSpot", "AWS", "Webhooks"]
@@ -524,9 +534,9 @@
       ]
     },
     "executableSpecs": {
-      "eyebrow": "Sistemas ejecutables",
+      "eyebrow": "Sistemas Ejecutables",
       "title": "Especificaciones ejecutables en lugar de documentación ambigua.",
-      "description": "Cada proyecto se define mediante arquitectura explícita, interfaces tipadas, validación automatizada y estándares de ingeniería listos para producción, en lugar de depender de supuestos o documentación imprecisa.",
+      "description": "Cada proyecto se define mediante arquitectura explícita, interfaces tipadas, validación automatizada y estándares de ingeniería listos para producción, en lugar de suposiciones y documentación imprecisa.",
       "stats": [
         {
           "value": "100%",
@@ -540,220 +550,220 @@
       "codeLabel": "payment.service.ts"
     },
     "comparison": {
-      "eyebrow": "Modelo de entrega",
-      "title": "Pingital vs. una agencia tradicional de software",
-      "description": "Pingital está diseñado para eliminar los problemas comunes del outsourcing tradicional: propiedad poco clara, responsabilidad técnica diluida y capas innecesarias entre el cliente y el equipo que realmente construye el producto.",
+      "eyebrow": "Modelo de Entrega de Ingeniería",
+      "title": "Pingital vs. Outsourcing Tradicional de Agencia",
+      "description": "Creamos Pingital para eliminar los problemas de principal-agente comunes en el outsourcing tradicional de software: propiedad poco clara, responsabilidad técnica diluida y capas innecesarias entre el cliente y los ingenieros que construyen el producto.",
       "columns": {
-        "dimension": "Dimensión operativa",
-        "standard": "Agencia / Outsourcer tradicional",
-        "pingital": "Modelo de entrega Pingital"
+        "dimension": "Dimensión Operativa",
+        "standard": "Agencia / Outsourcer Tradicional",
+        "pingital": "Modelo de Entrega Pingital"
       },
       "rows": [
         {
-          "label": "Liderazgo técnico",
-          "standard": "Ejecutivos de cuenta junior y múltiples capas de personal externo",
+          "label": "Liderazgo Técnico",
+          "standard": "Ejecutivos de cuenta junior y múltiples capas de personal offshore",
           "pingital": "Liderazgo técnico senior directo"
         },
         {
-          "label": "Propiedad intelectual y código",
-          "standard": "Transferencia condicionada al cierre de hitos",
+          "label": "Propiedad de IP y Código",
+          "standard": "Transferencia condicionada al cumplimiento de hitos finales",
           "pingital": "100% propiedad del cliente desde la entrega"
         },
         {
-          "label": "Enfoque de arquitectura",
-          "standard": "Decisiones manuales, herramientas improvisadas y deuda técnica",
+          "label": "Enfoque Arquitectónico",
+          "standard": "Decisiones manuales, herramientas ad-hoc y deuda técnica",
           "pingital": "Estándares estrictos de arquitectura y sistemas tipados"
         },
         {
-          "label": "Gobernanza técnica",
+          "label": "Gobernanza Arquitectónica",
           "standard": "Revisión limitada y estándares de ingeniería inconsistentes",
-          "pingital": "Gobernanza técnica continua y validación permanente"
+          "pingital": "Gobernanza técnica y validación continua"
         },
         {
-          "label": "Soporte post-lanzamiento",
-          "standard": "Retainers por hora para resolver errores",
-          "pingital": "Soporte estructurado y responsabilidad post-lanzamiento"
+          "label": "Garantía Posterior al Lanzamiento",
+          "standard": "Retainers por hora para resolución inmediata de errores",
+          "pingital": "Soporte post-lanzamiento estructurado y responsabilidad definida"
         }
       ],
       "benefits": [
         {
-          "title": "Sin intermediarios",
-          "description": "Cada decisión técnica crítica se trabaja directamente con el equipo responsable de arquitectura y entrega."
+          "title": "Sin Intermediarios",
+          "description": "Cada decisión técnica crítica es gestionada directamente por el equipo responsable de la arquitectura y la entrega."
         },
         {
-          "title": "Integración continua",
-          "description": "El progreso de ingeniería se integra y mantiene visible durante todo el proceso de desarrollo."
+          "title": "Sincronización y Entregas Continuas",
+          "description": "El progreso de ingeniería se integra continuamente y permanece visible durante todo el proceso de desarrollo."
         },
         {
-          "title": "SLA formal de entrega",
+          "title": "SLA Formal de Entrega",
           "description": "Las expectativas de entrega, responsabilidades y condiciones de soporte se definen antes de comenzar la implementación.",
           "accent": true
         }
       ]
     },
     "deliveryFramework": {
-      "eyebrow": "Modelo de entrega",
-      "title": "Proceso de entrega en 4 etapas",
-      "description": "Hitos claros, entregas predecibles y visibilidad durante todo el proyecto, desde la arquitectura inicial hasta la transferencia a producción.",
+      "eyebrow": "Plan de Entrega",
+      "title": "Framework de Entrega en 4 Fases",
+      "description": "Hitos predecibles, entregas deterministas y sin sorpresas. Desde la arquitectura inicial hasta la transferencia a producción.",
       "deliverableLabel": "Entregable",
       "phases": [
         {
           "number": "01",
-          "eyebrow": "ETAPA 1",
-          "title": "Descubrimiento y modelado de riesgos",
-          "description": "Auditoría profunda de arquitectura, definición de dominios, análisis de posibles fallos y evaluación de riesgos de seguridad.",
-          "deliverable": "Blueprint de arquitectura, mapa del sistema y evaluación técnica de riesgos."
+          "eyebrow": "FASE 1",
+          "title": "Descubrimiento y Modelado de Amenazas",
+          "description": "Auditoría profunda de arquitectura, mapeo de límites de dominio, análisis de modos de falla y modelado de amenazas de seguridad.",
+          "deliverable": "Plano de arquitectura, mapa del sistema y evaluación de riesgos técnicos."
         },
         {
           "number": "02",
-          "eyebrow": "ETAPA 2",
-          "title": "Prototipado y validación técnica",
-          "description": "Validamos flujos críticos, supuestos de rendimiento e integraciones antes de comenzar la implementación completa.",
+          "eyebrow": "FASE 2",
+          "title": "Prototipado del Núcleo y Validación Técnica",
+          "description": "Validación técnica de flujos críticos, supuestos de rendimiento y restricciones de integración antes de la implementación completa.",
           "deliverable": "Prototipo técnico validado y estrategia de implementación."
         },
         {
           "number": "03",
-          "eyebrow": "ETAPA 3",
-          "title": "Ejecución por sprints y entregas continuas",
-          "description": "Desarrollo listo para producción mediante sprints controlados, integración continua y entregas medibles.",
-          "deliverable": "Software funcional entregado progresivamente en entornos preparados para producción."
+          "eyebrow": "FASE 3",
+          "title": "Ejecución por Sprints y Releases Quincenales",
+          "description": "Desarrollo listo para producción mediante sprints de ingeniería controlados, integración continua y entregas medibles.",
+          "deliverable": "Software funcional liberado incrementalmente en entornos preparados para producción."
         },
         {
           "number": "04",
-          "eyebrow": "ETAPA 4",
-          "title": "Optimización y transferencia operativa",
-          "description": "Refuerzo de seguridad, validación de rendimiento, documentación, observabilidad y transferencia completa del sistema.",
+          "eyebrow": "FASE 4",
+          "title": "Fortalecimiento y Transferencia Autónoma",
+          "description": "Fortalecimiento de seguridad, validación de rendimiento, documentación, observabilidad y transferencia operativa completa.",
           "deliverable": "Sistema en producción, código fuente, infraestructura y documentación técnica."
         }
       ]
     },
     "cta": {
-      "eyebrow": "Sin capas comerciales. Sin intermediarios.",
-      "title": "Inicia una evaluación técnica de tu proyecto.",
-      "description": "Conecta directamente con el equipo de ingeniería de Pingital. Revisamos requerimientos, restricciones del sistema, riesgos de arquitectura y prioridades de entrega antes de comenzar la implementación.",
+      "eyebrow": "Sin capas de ventas. Sin ejecutivos de cuenta.",
+      "title": "Inicia tu consulta de alcance técnico.",
+      "description": "Conéctate directamente con el equipo de ingeniería de Pingital. Revisamos requerimientos, restricciones del sistema, riesgos arquitectónicos y prioridades de entrega antes de comenzar la implementación.",
       "points": [
         "Contacto técnico directo",
         "Sin intermediarios comerciales",
-        "Respuesta en menos de 24 horas"
+        "Respuesta dentro de 24 horas"
       ],
-      "primaryCta": "Solicitar evaluación técnica",
-      "secondaryCta": "Ver proceso de contacto"
+      "primaryCta": "Programar Sesión de Alcance",
+      "secondaryCta": "Ver Proceso de Contacto"
     }
   },
   "aboutPage": {
     "hero": {
-      "eyebrow": "Sobre Pingital",
+      "eyebrow": "Acerca de Pingital",
       "topLabels": [
-        "Arquitectura de alta confiabilidad",
-        "Liderazgo técnico directo"
+        "Arquitectura de Alta Confiabilidad",
+        "Liderazgo Técnico Directo"
       ],
       "title": "Construimos software con la precisión de la ingeniería de alta confiabilidad.",
-      "leftEyebrow": "Equipos de precisión",
+      "leftEyebrow": "Equipos de Precisión",
       "leftDescription": "Un modelo de ingeniería enfocado en liderazgo técnico senior, calidad medible y confiabilidad operativa.",
-      "description": "Pingital nació de una idea simple: los negocios más críticos necesitan equipos de software que piensen como ingenieros, no como agencias generalistas. Evitamos la responsabilidad diluida, las capas innecesarias y los modelos de entrega opacos para trabajar con responsabilidad técnica directa y construir sistemas capaces de soportar años de operación real.",
+      "description": "Pingital nació de una premisa simple: las empresas más críticas del mundo necesitan equipos de software que piensen como ingenieros, no como agencias generalistas. Rechazamos la propiedad diluida, las capas innecesarias y los modelos de entrega de caja negra en favor de responsabilidad técnica directa y sistemas diseñados para soportar años de operación en el mundo real.",
       "stats": [
         {
           "value": "48",
           "accent": "/48",
-          "label": "Entregas de ingeniería",
-          "description": "Proyectos entregados bajo estándares estrictos"
+          "label": "Entrega de ingeniería",
+          "description": "Entregado bajo estándares estrictos"
         },
         {
           "value": "100%",
           "accent": "",
           "label": "Propiedad intelectual del cliente",
-          "description": "Propiedad total y sin restricciones"
+          "description": "Disciplina absoluta sobre la propiedad"
         },
         {
           "value": "0",
           "accent": "CVE",
           "label": "Vulnerabilidades críticas",
-          "description": "Sin vulnerabilidades críticas conocidas en producción"
+          "description": "Cero exploits conocidos en producción"
         },
         {
           "value": "3",
           "accent": "",
           "label": "Hubs globales de ingeniería",
-          "description": "San Francisco · Zúrich · Londres"
+          "description": "San Francisco · Zurich · London"
         }
       ]
     },
     "manifesto": {
-      "eyebrow": "Principios de trabajo",
+      "eyebrow": "Principios Operativos",
       "title": "El Manifiesto Pingital",
-      "description": "Un modelo de ingeniería basado en responsabilidad directa, transparencia y excelencia técnica.",
+      "description": "Un modelo de ingeniería enfocado en responsabilidad, transparencia y excelencia técnica.",
       "principleLabel": "PRINCIPIO",
       "items": [
         {
           "number": "01",
-          "title": "Calidad sobre volumen",
-          "description": "Limitamos intencionalmente la cantidad de proyectos simultáneos para mantener a nuestros ingenieros senior enfocados en el trabajo que realmente importa.",
+          "title": "Calidad Sobre Volumen",
+          "description": "Limitamos intencionalmente el número de proyectos simultáneos para mantener a los ingenieros senior enfocados en el trabajo que realmente importa.",
           "footer": "Proyectos activos: 4–6"
         },
         {
           "number": "02",
-          "title": "Ingeniería primero",
-          "description": "Evitamos capas comerciales innecesarias. Trabajas directamente con las personas responsables de arquitectura y entrega.",
+          "title": "Ingeniería Primero",
+          "description": "No utilizamos capas comerciales innecesarias. Trabajas directamente con las personas responsables de la arquitectura y la entrega.",
           "footer": "Liderazgo técnico: directo"
         },
         {
           "number": "03",
-          "title": "Propiedad y transparencia",
-          "description": "Desde el primer día, el código fuente, infraestructura, documentación y propiedad intelectual específica del proyecto pertenecen al cliente.",
-          "footer": "Propiedad intelectual: 100%"
+          "title": "Propiedad y Transparencia Absolutas",
+          "description": "Desde el primer día, todo el código fuente, infraestructura, documentación y propiedad intelectual específica del proyecto pertenecen al cliente.",
+          "footer": "Propiedad de IP: 100%"
         }
       ]
     },
     "principles": {
-      "eyebrow": "Principios de ingeniería",
-      "title": "Los Principios Pingital",
-      "description": "Cada repositorio, decisión de arquitectura y despliegue a producción sigue principios diseñados para reducir riesgos, mejorar la confiabilidad y crear software mantenible a largo plazo.",
+      "eyebrow": "Principios de Ingeniería",
+      "title": "Los Principios de Pingital",
+      "description": "Cada repositorio, decisión arquitectónica y release de producción sigue principios diseñados para reducir riesgos, mejorar la confiabilidad y crear software mantenible a largo plazo.",
       "items": [
         {
           "number": "01",
-          "title": "Software que sí se utiliza",
-          "description": "Cada sistema que construimos debe resolver un problema operativo real y generar valor medible en producción.",
+          "title": "Garantía Contra Software Inútil",
+          "description": "Cada sistema que desarrollamos debe resolver un problema operativo real y generar valor medible en producción.",
           "footer": "CONSTRUIDO PARA OPERACIONES REALES"
         },
         {
           "number": "02",
-          "title": "Estado predecible y tipado fuerte",
-          "description": "Favorecemos contratos explícitos, estados predecibles y sistemas fuertemente tipados que reducen la ambigüedad a medida que el software crece.",
-          "footer": "PREDECIBILIDAD POR DISEÑO"
+          "title": "Estado Determinista y Tipado Fuerte",
+          "description": "Priorizamos contratos explícitos, estados predecibles y sistemas fuertemente tipados que reduzcan la ambigüedad conforme el software crece.",
+          "footer": "PREVISIBILIDAD POR DISEÑO"
         },
         {
           "number": "03",
-          "title": "Pruebas automatizadas de regresión y fallos",
+          "title": "Regresión Automatizada y Pruebas de Caos",
           "description": "Los sistemas críticos requieren validación automatizada, observabilidad y pruebas de fallos antes de que los problemas lleguen a producción.",
           "footer": "CONFIABILIDAD ANTES DEL RELEASE"
         },
         {
           "number": "04",
-          "title": "Transferencia total de propiedad intelectual",
-          "description": "Tu empresa es propietaria del software, código fuente, infraestructura y activos específicos que construimos para el proyecto.",
+          "title": "Transferencia de IP sin Restricciones",
+          "description": "Tu empresa es propietaria del software, código fuente, infraestructura y activos específicos del proyecto que desarrollamos para ti.",
           "footer": "100% PROPIEDAD DEL CLIENTE"
         },
         {
           "number": "05",
-          "title": "Impacto empresarial medible",
-          "description": "Las decisiones de ingeniería deben mejorar la velocidad operativa, eliminar trabajo manual y generar impacto medible para el negocio.",
+          "title": "Rendimiento Empresarial Medible",
+          "description": "Las decisiones de ingeniería deben mejorar la velocidad operativa, eliminar trabajo manual y generar impacto empresarial medible.",
           "footer": "INGENIERÍA CON RESULTADOS"
         },
         {
           "number": "06",
-          "title": "Transferencia de conocimiento",
-          "description": "La documentación, las decisiones de arquitectura y el contexto técnico permanecen accesibles para que tu organización nunca dependa de nosotros.",
-          "footer": "SIN VENDOR LOCK-IN"
+          "title": "Transferencia de Conocimiento Fluida",
+          "description": "La documentación, las decisiones arquitectónicas y el contexto técnico permanecen accesibles para que tu organización nunca dependa de nosotros.",
+          "footer": "SIN DEPENDENCIA DEL PROVEEDOR"
         }
       ]
     },
     "engineeringStandard": {
-      "eyebrow": "Disciplina de producción",
+      "eyebrow": "Disciplina de Producción",
       "title": "Cero tolerancia al software frágil.",
-      "description": "El software confiable no aparece después de una última revisión de calidad. Se construye con contratos explícitos, validaciones automatizadas, sistemas observables y decisiones de ingeniería que consideran que los fallos pueden ocurrir.",
-      "metricLabel": "Objetivo en producción",
+      "description": "El software confiable no es resultado de una revisión final de QA. Surge de contratos explícitos, validaciones automatizadas, sistemas observables y decisiones de ingeniería que parten del supuesto de que los fallos pueden ocurrir.",
+      "metricLabel": "Objetivo de producción",
       "metricValue": "Predecible por diseño",
-      "codeLabel": "Estándar de ingeniería",
+      "codeLabel": "Base de ingeniería",
       "codeLines": [
         "type ProductionSystem = {",
         "  observable: true;",
@@ -768,34 +778,34 @@
       ]
     },
     "operations": {
-      "eyebrow": "Cómo trabajamos",
-      "title": "Diseñados para equipos modernos y distribuidos.",
-      "description": "Nuestro modelo de trabajo se basa en comunicación directa, responsabilidades claras e infraestructura que facilita la colaboración sin fricción operativa innecesaria.",
+      "eyebrow": "Cómo Operamos",
+      "title": "Diseñado para equipos distribuidos modernos.",
+      "description": "Nuestro modelo de entrega está diseñado alrededor de comunicación directa, responsabilidades claras e infraestructura que facilita la colaboración sin fricción operativa innecesaria.",
       "items": [
         {
           "number": "01",
-          "title": "Entrega alineada por zona horaria",
-          "description": "Organizamos la comunicación y las entregas alrededor de ventanas prácticas de colaboración para evitar que las decisiones técnicas permanezcan bloqueadas durante días.",
+          "title": "Entrega Alineada por Zona Horaria",
+          "description": "Estructuramos la comunicación y las entregas alrededor de horarios con superposición práctica con los equipos del cliente, evitando que las decisiones técnicas permanezcan bloqueadas durante días.",
           "details": [
             "Ventanas claras de comunicación",
-            "Feedback técnico rápido",
+            "Retroalimentación técnica rápida",
             "Acceso directo a ingeniería"
           ]
         },
         {
           "number": "02",
-          "title": "Colaboración remote-first",
-          "description": "Los proyectos se organizan alrededor de documentación, progreso visible y responsabilidades técnicas claras en lugar de reuniones innecesarias.",
+          "title": "Colaboración Remote-First",
+          "description": "Los proyectos se organizan alrededor de documentación, progreso visible y responsabilidades técnicas claras, en lugar de reuniones innecesarias.",
           "details": [
             "Decisiones documentadas",
             "Estado del proyecto transparente",
-            "Flujos preparados para trabajo asíncrono"
+            "Flujos compatibles con trabajo asíncrono"
           ]
         },
         {
           "number": "03",
-          "title": "Operaciones cloud-native",
-          "description": "Diseñamos los procesos de despliegue e infraestructura alrededor de plataformas cloud modernas, automatización y observabilidad en producción.",
+          "title": "Operaciones Cloud-Native",
+          "description": "Diseñamos procesos de despliegue e infraestructura alrededor de plataformas cloud modernas, automatización y observabilidad en producción.",
           "details": [
             "Despliegues automatizados",
             "Monitoreo de producción",
@@ -805,10 +815,10 @@
       ]
     },
     "cta": {
-      "eyebrow": "Los sistemas complejos requieren atención técnica directa",
-      "title": "¿Tienes un reto técnico complejo?",
-      "description": "Habla directamente con el equipo de ingeniería de Pingital. Revisamos tus requerimientos, restricciones y riesgos técnicos antes de recomendar una arquitectura o estrategia de implementación.",
-      "primaryCta": "Iniciar conversación técnica",
+      "eyebrow": "Los sistemas complejos merecen atención técnica directa",
+      "title": "¿Tienes un desafío complejo de ingeniería?",
+      "description": "Habla directamente con el equipo de ingeniería de Pingital. Revisamos tus requerimientos, restricciones y riesgos técnicos antes de recomendar una arquitectura o estrategia de entrega.",
+      "primaryCta": "Iniciar una conversación técnica",
       "secondaryCta": "Explorar nuestros servicios",
       "signals": [
         "Acceso directo a ingeniería",

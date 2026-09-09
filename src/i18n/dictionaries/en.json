@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "footer": {
-    "description": "Custom software, digital products and technology engineered around the way your business actually works.",
+    "description": "Custom software, digital products and technology designed around the way your business actually works",
     "company": "Company",
     "about": "About",
     "services": "Services",
@@ -39,174 +39,184 @@
     },
     "stats": [
       {
-        "value": "$2.4B+",
-        "label": "Value delivered"
+        "value": "3 Months",
+        "label": "Average time-to-market"
       },
       {
-        "value": "99.999%",
-        "label": "System reliability"
-      },
-      {
-        "value": "48",
-        "label": "Products launched"
+        "value": "4+",
+        "label": "Industries transformed"
       },
       {
         "value": "100%",
-        "label": "Tailored solutions"
+        "label": "Custom-built systems"
+      },
+      {
+        "value": "Multi-site",
+        "label": "Scalable architecture"
       }
     ],
     "positioning": {
       "eyebrow": "Our approach",
-      "title": "We do not build generic websites. We engineer high-performance software systems that give market leaders an unfair competitive advantage.",
-      "paragraph1": "Every project starts with understanding how your business actually works. We design around your workflows, your customers and your growth objectives instead of forcing your operation into generic software.",
-      "paragraph2": "From custom platforms and internal systems to integrations, automation and cloud infrastructure, every decision is made around performance, scalability and long-term maintainability."
+      "title": "We don't start with code. We start by understanding the business.",
+      "paragraph1": "We design and build custom software solutions, high-performance web platforms and scalable digital systems for businesses that need technology tailored to the way they actually operate. Instead of relying on generic websites or off-the-shelf software, we analyze your workflows, customers and growth objectives to create platforms that improve efficiency, support better decisions and deliver measurable business value.",
+      "paragraph2": "From custom web applications and internal business systems to API integrations, workflow automation and cloud infrastructure, every solution is engineered with performance, scalability and long-term maintainability in mind. Our goal is to build reliable software that integrates with your existing technology, evolves alongside your business and gives your organization a sustainable competitive advantage."
     },
     "services": {
       "eyebrow": "Capabilities Spectrum",
-      "title": "Engineered for Extremes",
-      "description": "End-to-end execution across modern application tiers. From low-level architecture to responsive digital experiences.",
+      "title": "Technology for real business problems.",
+      "description": "From internal systems and custom platforms to automation, integrations and digital products, we build solutions for businesses that have outgrown generic tools or need technology designed specifically around their operation.",
       "cta": "View Service Specs",
       "items": [
         {
           "icon": "web",
           "title": "Web Applications",
-          "description": "Custom dashboards, enterprise platforms and operational systems engineered around complex business workflows.",
+          "description": "Web applications, dashboards, internal platforms and operational systems built around real business workflows.",
           "features": [
-            "Fast and responsive user experiences",
-            "Complex dashboards and data visualization",
-            "Role-based granular access control"
+            "Fast and responsive interfaces",
+            "Dashboards and data visualization",
+            "Multi-user systems",
+            "Custom workflows and permissions"
           ]
         },
         {
           "icon": "mobile",
           "title": "Mobile Applications",
-          "description": "High-performance mobile experiences designed for intuitive interactions, reliability and scalability.",
+          "description": "Mobile applications designed around specific operational, service, communication and user experience requirements.",
           "features": [
             "Native and cross-platform development",
-            "Hardware and peripheral integrations",
-            "Secure authentication and local storage"
+            "Device integrations",
+            "Connected and offline experiences",
+            "Secure authentication and storage"
           ]
         },
         {
           "icon": "cloud",
           "title": "Cloud & Systems Architecture",
-          "description": "Reliable cloud infrastructure, scalable deployments and architectures designed for demanding applications.",
+          "description": "We design secure and scalable cloud environments based on the actual requirements of each application.",
           "features": [
-            "Infrastructure as code",
-            "Scalable cloud environments",
-            "Secure deployment architecture"
+            "Scalable cloud architecture",
+            "Automated deployments",
+            "Secure infrastructure",
+            "Monitoring and reliability"
           ]
         },
         {
           "icon": "database",
           "title": "Distributed Databases & Backends",
-          "description": "High-performance APIs, databases and backend systems designed to process and synchronize critical business data.",
+          "description": "We build APIs, databases and backend systems that manage, process and synchronize critical business information.",
           "features": [
-            "Event-driven architectures",
-            "PostgreSQL and distributed data",
-            "Caching and performance optimization"
+            "Custom APIs and services",
+            "Relational databases",
+            "Data integration and synchronization",
+            "Performance optimization"
           ]
         },
         {
           "icon": "integration",
-          "title": "Systems Modernization & Integrations",
-          "description": "Modernize legacy systems and connect the platforms your operation already depends on without disrupting the business.",
+          "title": "Make your existing technology work better",
+          "description": "We connect the tools you already use and modernize existing systems while keeping business continuity in mind.",
           "features": [
+            "API integrations",
+            "Platform-to-platform connectivity",
             "Legacy system modernization",
-            "Third-party API integrations",
-            "Incremental migrations without downtime",
-            "Automated monitoring and recovery"
+            "Incremental migrations"
           ],
           "wide": true
         }
       ]
     },
     "caseStudies": {
-      "eyebrow": "Selected Work",
-      "title": "Case Studies in Precision",
+      "eyebrow": "Technology built to solve real problems.",
+      "title": "Our experience is not limited to a single industry.",
       "cta": "Explore All Case Studies",
       "items": [
         {
-          "category": "FINTECH",
-          "title": "Apex Capital",
-          "description": "A high-performance financial platform designed to centralize portfolio insights, operational data and critical business metrics.",
+          "category": "EDUCATION / NONPROFIT",
+          "title": "An education platform built during a pandemic",
+          "description": "In 2020, we developed a platform that allowed a nonprofit English education program to continue operating while in-person education was disrupted.",
           "stat1": {
-            "value": "14ms",
-            "label": "API Response"
+            "value": "3 Months",
+            "label": "From analysis to implementation"
           },
           "stat2": {
-            "value": "99.99%",
-            "label": "Availability"
-          }
+            "value": "3 communities",
+            "label": "Supporting the program across different locations"
+          },
+          "image": "/images/home/peace.jpg",
+          "imageAlt": "Peace punta de mita"
         },
         {
-          "category": "HEALTHTECH",
-          "title": "Aura Health",
-          "description": "A unified healthcare operations platform connecting teams, workflows and patient information through a secure digital experience.",
+          "category": "LUXURY PROPERTY MANAGEMENT",
+          "title": "Connecting the operation behind high-end properties",
+          "description": "Development and integration of digital tools supporting a luxury property rental operation, including maintenance, concierge services, purchasing, quality control, customer satisfaction and marketing.",
           "stat1": {
-            "value": "38%",
-            "label": "Faster Operations"
+            "value": "6+ Platforms",
+            "label": "Integrations"
           },
           "stat2": {
             "value": "24/7",
-            "label": "Availability"
-          }
+            "label": "Control"
+          },
+          "image": "/images/home/mr.jpg",
+          "imageAlt": "Property management system "
         },
         {
-          "category": "PROPTECH",
-          "title": "Vanguard Realty",
-          "description": "A real-time property intelligence platform combining inventory, analytics and operational tools into one connected environment.",
+          "category": "TOURISM & ADVENTURE",
+          "title": "A system designed around the operation",
+          "description": "A custom POS and operations platform developed for a surf, adventure and equipment rental business. The system was designed around its workflows and built to coordinate operations across three locations.",
           "stat1": {
-            "value": "42%",
-            "label": "Less Manual Work"
+            "value": "3",
+            "label": "Multi-location"
           },
           "stat2": {
-            "value": "5",
-            "label": "Systems Unified"
-          }
+            "value": "10+",
+            "label": "Custom workflows"
+          },
+          "image": "/images/home/wildmex.jpg",
+          "imageAlt": "Wildmex - Pos"
         }
       ]
     },
     "methodology": {
-      "eyebrow": "Our Process",
-      "title": "The 6-Stage Methodology",
+      "eyebrow": "The 6-Stage Methodology",
+      "title": "From understanding the problem to putting the solution into production",
       "items": [
         {
           "number": "01",
-          "title": "Discovery & Technical Scoping",
-          "description": "We define business goals, technical constraints, system requirements and measurable outcomes before writing code."
+          "title": "Discovery & Definition",
+          "description": "We understand the business, users, current processes and the problem we need to solve."
         },
         {
           "number": "02",
           "title": "Architecture & Design",
-          "description": "We design the product structure, data flows, infrastructure and user experience around the real operation."
+          "description": "We define the solution structure, workflows, experience and technical decisions required."
         },
         {
           "number": "03",
-          "title": "UI & System Delivery",
-          "description": "Interfaces, components and system foundations are built with scalability and maintainability in mind."
+          "title": "Development",
+          "description": "We build the solution in stages, keeping progress visible and continuously validating what is being developed."
         },
         {
           "number": "04",
-          "title": "Precision Engineering & QA",
-          "description": "Development, testing and technical validation happen continuously to reduce risk before production."
+          "title": "Testing & Validation",
+          "description": "We validate functionality, security, integrations and system behavior before production."
         },
         {
           "number": "05",
-          "title": "Automated QA & Pre-Testing",
-          "description": "Critical flows are validated across devices, integrations and environments before deployment."
+          "title": "Implementation",
+          "description": "We prepare the environment, deploy the solution and support the transition into real-world operations."
         },
         {
           "number": "06",
-          "title": "Continuous Delivery & Scale",
-          "description": "We deploy, monitor and evolve the product as your operation grows and new requirements appear."
+          "title": "Evolution",
+          "description": "We monitor, support and improve the solution as the business changes."
         }
       ]
     },
     "modernStack": {
       "eyebrow": "Technology",
-      "title": "The Modern Stack",
-      "description": "Modern tools, proven architectures and scalable infrastructure selected according to the needs of each product.",
+      "title": "Technology should serve the solution.",
+      "description": "We use modern tools and architectures selected according to the actual requirements of each project.",
       "groups": [
         {
           "title": "Frontend",
@@ -228,8 +238,8 @@
     },
     "contactCta": {
       "badge": "Direct Partner Engagement",
-      "title": "Have a mission-critical project in mind?",
-      "description": "We review inbound inquiries within 24 hours. You will speak directly with a Principal Solutions Architect to evaluate architectural viability, timelines, and resourcing.",
+      "title": "Have a business problem technology could solve?",
+      "description": "You don't need to arrive with a complete technical specification. Tell us what's happening, what you'd like to improve and what you're trying to build. From there, we can evaluate the problem and define the right next step.",
       "securityTitle": "Security & Confidentiality Guarantee",
       "securityDescription": "Every project brief is handled under strict confidentiality. We do not outsource development to third parties.",
       "fields": {

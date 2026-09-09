@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%" style="background-color: #ffffff;">
+  <defs>
+    <!-- Sombra suave para los módulos y la laptop -->
+    <filter id="boxShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+
+    <!-- Resplandor tecnológico para los nodos de datos -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      /* Líneas de conexión base (cables/rutas) */
+      .base-line {
+        fill: none;
+        stroke: #cbd5e1;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+        opacity: 0;
+        animation: fadeInLine 1.5s ease-out forwards;
+      }
+
+      @keyframes fadeInLine {
+        to { opacity: 0.6; }
+      }
+
+      /* Retrasos de aparición para las líneas base */
+      .delay-1 { animation-delay: 0s; }
+      .delay-2 { animation-delay: 0.3s; }
+      .delay-3 { animation-delay: 0.6s; }
+
+      /* Estilos de los íconos departamentales */
+      .icon-box { fill: #ffffff; stroke: #e2e8f0; stroke-width: 2; rx: 18; }
+      .icon-stroke { fill: none; stroke: #0f172a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-accent { stroke: #c35903; }
+      .icon-fill-accent { fill: #c35903; }
+    </style>
+  </defs>
+
+  <!-- ========================================== -->
+  <!-- RUTAS DE CONEXIÓN Y ANIMACIÓN DE NODOS     -->
+  <!-- ========================================== -->
+  <g id="spokes">
+    <!-- 0: Operaciones (Right) -->
+    <path id="path0" class="base-line delay-1" d="M 500 500 Q 680 460 860 500" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="0;1;0" begin="0s">
+        <mpath href="#path0"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 1: Marketing (Bottom Right) -->
+    <path id="path1" class="base-line delay-2" d="M 500 500 Q 680 540 811.7 680" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="1;0;1" begin="0.3s">
+        <mpath href="#path1"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 2: Soporte (Bottom Right 2) -->
+    <path id="path2" class="base-line delay-3" d="M 500 500 Q 630 630 680 811.7" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="0;1;0" begin="0.8s">
+        <mpath href="#path2"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 3: Recursos Humanos (Bottom) -->
+    <path id="path3" class="base-line delay-1" d="M 500 500 Q 460 680 500 860" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="4.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="1;0;1" begin="0.1s">
+        <mpath href="#path3"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 4: Finanzas (Bottom Left 2) -->
+    <path id="path4" class="base-line delay-2" d="M 500 500 Q 370 630 320 811.7" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.3s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="0;1;0" begin="0.6s">
+        <mpath href="#path4"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 5: Contabilidad (Bottom Left) -->
+    <path id="path5" class="base-line delay-3" d="M 500 500 Q 320 540 188.3 680" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.7s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="1;0;1" begin="0.2s">
+        <mpath href="#path5"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 6: Legal (Left) -->
+    <path id="path6" class="base-line delay-1" d="M 500 500 Q 320 460 140 500" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="0;1;0" begin="0.7s">
+        <mpath href="#path6"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 7: Seguridad (Top Left) -->
+    <path id="path7" class="base-line delay-2" d="M 500 500 Q 320 420 188.3 320" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="1;0;1" begin="0.4s">
+        <mpath href="#path7"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 8: Logística (Top Left 2) -->
+    <path id="path8" class="base-line delay-3" d="M 500 500 Q 370 370 320 188.3" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="0;1;0" begin="0.1s">
+        <mpath href="#path8"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 9: Inventario (Top) -->
+    <path id="path9" class="base-line delay-1" d="M 500 500 Q 540 320 500 140" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="1;0;1" begin="0.5s">
+        <mpath href="#path9"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 10: Nube (Top Right 2) -->
+    <path id="path10" class="base-line delay-2" d="M 500 500 Q 630 370 680 188.3" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="0;1;0" begin="0.9s">
+        <mpath href="#path10"/>
+      </animateMotion>
+    </circle>
+
+    <!-- 11: Ventas (Top Right) -->
+    <path id="path11" class="base-line delay-3" d="M 500 500 Q 680 420 811.7 320" />
+    <circle r="4.5" fill="#c35903" filter="url(#glow)">
+      <animateMotion dur="3.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyPoints="1;0;1" begin="0.2s">
+        <mpath href="#path11"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- NÚCLEO CENTRAL: LAPTOP (TÚ SOFTWARE)       -->
+  <!-- ========================================== -->
+  <g transform="translate(500, 500)" filter="url(#boxShadow)">
+    <!-- Pantalla -->
+    <rect x="-85" y="-60" width="170" height="105" rx="6" fill="#ffffff" stroke="#0f172a" stroke-width="5"/>
+    
+    <!-- Gráfico en pantalla (Sinergia) -->
+    <rect x="-70" y="-45" width="140" height="75" rx="3" fill="#f8fafc" />
+    
+    <!-- Elementos visuales del software corriendo -->
+    <path d="M -40 0 L -15 0 L -5 -20 L 15 20 L 25 0 L 40 0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" />
+    <path d="M -40 0 L -15 0 L -5 -20 L 15 20 L 25 0 L 40 0" fill="none" stroke="#c35903" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" values="0,200; 200,0" dur="2s" repeatCount="indefinite" />
+    </path>
+    
+    <!-- Luz de procesamiento en la pantalla -->
+    <circle cx="45" cy="-25" r="4" fill="#c35903" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.2; 1; 0.2" dur="1s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Bisagra y Base de la laptop -->
+    <path d="M -110 50 L 110 50 L 125 65 L -125 65 Z" fill="#0f172a" />
+    <rect x="-20" y="50" width="40" height="5" fill="#334155" />
+  </g>
+
+  <!-- ========================================== -->
+  <!-- MÓDULOS DEPARTAMENTALES (ÍCONOS)           -->
+  <!-- ========================================== -->
+  
+  <g transform="translate(860, 500)"><!-- 0: Operaciones -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <circle cx="0" cy="0" r="10" class="icon-stroke icon-accent" />
+    <path d="M 0 -14 v 4 m 0 20 v 4 m 14 -14 h -4 m -20 0 h -4 m 19 -10 l -3 3 m -14 14 l -3 3 m 20 0 l -3 -3 m -14 -14 l -3 -3" class="icon-stroke" />
+  </g>
+
+  <g transform="translate(811.7, 680)"><!-- 1: Marketing -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <path d="M -15 8 l 18 -12 v 24 z m 18 -8 c 4 0 4 8 0 8 m -14 4 v 6 h -5 v -6" class="icon-stroke" />
+    <path d="M 8 -4 l 5 -5 m -5 12 l 5 5" class="icon-stroke icon-accent" />
+  </g>
+
+  <g transform="translate(680, 811.7)"><!-- 2: Soporte -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <path d="M -14 2 a 14 14 0 0 1 28 0 v 8 a 4 4 0 0 1 -4 4 h -20 a 4 4 0 0 1 -4 -4 z" class="icon-stroke" />
+    <path d="M 14 6 h 4 v 8 h -4 z m -28 0 h -4 v 8 h 4 z m 6 12 v 4 a 4 4 0 0 0 4 4 h 8" class="icon-stroke icon-accent"/>
+  </g>
+
+  <g transform="translate(500, 860)"><!-- 3: Recursos Humanos -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <circle cx="0" cy="-8" r="5" class="icon-stroke icon-accent" />
+    <path d="M -14 14 c 0 -7 6 -11 14 -11 s 14 4 14 11" class="icon-stroke icon-accent" />
+    <circle cx="-14" cy="-4" r="4" class="icon-stroke" opacity="0.4"/>
+    <path d="M -24 14 c 0 -5 4 -8 8 -9" class="icon-stroke" opacity="0.4"/>
+    <circle cx="14" cy="-4" r="4" class="icon-stroke" opacity="0.4"/>
+    <path d="M 24 14 c 0 -5 -4 -8 -8 -9" class="icon-stroke" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(320, 811.7)"><!-- 4: Finanzas -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <path d="M -16 16 h 32 m -26 0 v -8 m 10 8 v -16 m 10 16 v -22" class="icon-stroke" />
+    <path d="M -16 0 l 10 -8 l 8 4 l 10 -12 m -6 0 h 6 v 6" class="icon-stroke icon-accent" />
+  </g>
+
+  <g transform="translate(188.3, 680)"><!-- 5: Contabilidad -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <rect x="-14" y="-18" width="28" height="36" rx="4" class="icon-stroke" />
+    <rect x="-8" y="-12" width="16" height="8" class="icon-stroke icon-accent" />
+    <circle cx="-6" cy="4" r="1.5" class="icon-fill-accent" />
+    <circle cx="0" cy="4" r="1.5" class="icon-fill-accent" />
+    <circle cx="6" cy="4" r="1.5" class="icon-fill-accent" />
+    <circle cx="-6" cy="10" r="1.5" class="icon-fill-accent" />
+    <circle cx="0" cy="10" r="1.5" class="icon-fill-accent" />
+    <circle cx="6" cy="10" r="1.5" class="icon-fill-accent" />
+  </g>
+
+  <g transform="translate(140, 500)"><!-- 6: Legal -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <path d="M 0 16 v -24 m -12 0 h 24 m -24 0 l -4 10 h 8 z m 24 0 l -4 10 h 8 z" class="icon-stroke" />
+    <path d="M -10 16 h 20" class="icon-stroke icon-accent" />
+  </g>
+
+  <g transform="translate(188.3, 320)"><!-- 7: Seguridad/IT -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <path d="M 0 -16 l 14 5 v 10 c 0 10 -14 15 -14 15 s -14 -5 -14 -15 v -10 z" class="icon-stroke" />
+    <rect x="-4" y="-1" width="8" height="6" rx="1" class="icon-stroke icon-accent" />
+    <path d="M -2 -1 v -2 a 2 2 0 0 1 4 0 v 2" class="icon-stroke icon-accent" />
+  </g>
+
+  <g transform="translate(320, 188.3)"><!-- 8: Logística -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <path d="M -16 10 h 22 v -16 h -22 z" class="icon-stroke" />
+    <path d="M 6 10 h 10 v -8 h -6 l -4 -4 h -14" class="icon-stroke" />
+    <circle cx="-6" cy="10" r="3.5" class="icon-stroke icon-accent" />
+    <circle cx="10" cy="10" r="3.5" class="icon-stroke icon-accent" />
+  </g>
+
+  <g transform="translate(500, 140)"><!-- 9: Inventario -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <path d="M -12 12 l 12 6 l 12 -6 v -10 l -12 -6 l -12 6 z" class="icon-stroke" />
+    <path d="M -12 2 l 12 6 l 12 -6 m -12 6 v 10" class="icon-stroke" />
+    <path d="M -16 -2 l 8 4 v -8 l -8 -4 z" class="icon-stroke icon-accent" />
+  </g>
+
+  <g transform="translate(680, 188.3)"><!-- 10: Nube -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <path d="M -6 10 a 7 7 0 0 1 -3 -13 a 10 10 0 0 1 18 -2 a 7 7 0 0 1 2 15 z" class="icon-stroke" />
+    <path d="M -12 16 h 24 a 2 2 0 0 0 0 -4 h -24 a 2 2 0 0 0 0 4 z" class="icon-stroke icon-accent" />
+  </g>
+
+  <g transform="translate(811.7, 320)"><!-- 11: Ventas -->
+    <rect x="-38" y="-38" width="76" height="76" class="icon-box" filter="url(#boxShadow)"/>
+    <circle cx="0" cy="0" r="14" class="icon-stroke" />
+    <circle cx="0" cy="0" r="5" class="icon-stroke icon-accent" />
+    <path d="M 6 -6 l 10 -10 m -4 0 h 4 v 4" class="icon-stroke icon-accent" />
+  </g>
+
+</svg>

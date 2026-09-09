@@ -1,3 +1,4 @@
+import Image from "next/image";
 type ProjectStat = {
   value: string;
   label: string;
@@ -7,6 +8,8 @@ type Project = {
   category: string;
   title: string;
   description: string;
+  image: string;
+  imageAlt: string;
   stat1: ProjectStat;
   stat2: ProjectStat;
 };
@@ -88,10 +91,14 @@ export default function CaseStudies({
                   index % 2 !== 0 ? "md:order-1" : "",
                 ].join(" ")}
               >
-                <div className="flex h-full min-h-[260px] w-full items-center justify-center rounded-xl border border-neutral-200 bg-white shadow-lg">
-                  <span className="text-sm text-neutral-400">
-                    Project interface image
-                  </span>
+                <div className="relative min-h-[260px] w-full overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-lg">
+                  <Image
+                    src={project.image}
+                    alt={project.imageAlt}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
                 </div>
               </div>
             </article>
